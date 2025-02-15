@@ -4,14 +4,33 @@ import styles from "./Victree.module.css";
 const Victree = () => {
   return (
     <div className={styles.victree}>
-      <img className={styles.victreeChild} alt="" src="src\public\Victreeimg\Polygon 1.png" />
-      <img className={styles.victreeItem} alt="" src="src\public\Victreeimg\Polygon 3.png" />
-      <img className={styles.victreeInner} alt="" src="src\public\Victreeimg\Polygon 2.png" />
-      <img className={styles.polygonIcon} alt="" src="src\public\Victreeimg\Polygon 4.png" />
-      <img className={styles.previewRev12Icon} alt="" src="src\public\Victreeimg\ดาวน์โหลด (2)_preview_rev_1 2.png" />
-      <img className={styles.badgeFreeVectorIconsDesign} alt="" src="src\public\Victreeimg\Badge free vector icons designed by Freepik_preview_rev_1 1.png" />
-      <img className={styles.adobeFireworksPaperPngFr} alt="" src="src\public\Victreeimg\Adobe Fireworks Paper PNG - Free Download_preview_rev_1 1.png" />
-      <div className={styles.victree1}>VICTREE</div>
+      <main className={styles.vectorParent}>
+        <img className={styles.frameChild} alt="" src="/polygon-1.svg" />
+        <img className={styles.frameItem} alt="" src="/polygon-3.svg" />
+        <img className={styles.frameInner} alt="" src="/polygon-2.svg" />
+        <section className={styles.vectorGroup}>
+          <img className={styles.polygonIcon} alt="" src="/polygon-4.svg" />
+          <img
+            className={styles.previewRev12Icon}
+            alt=""
+            src="/-2-preview-rev-1-2@2x.png"
+          />
+          <img
+            className={styles.badgeFreeVectorIconsDesign}
+            loading="lazy"
+            alt=""
+            src="/badge-free-vector-icons-designed-by-freepik-preview-rev-1-1@2x.png"
+          />
+        </section>
+        <div className={styles.adobeFireworksPaperPngFrParent}>
+          <img
+            className={styles.adobeFireworksPaperPngFr}
+            alt=""
+            src="/adobe-fireworks-paper-png--free-download-preview-rev-1-1@2x.png"
+          />
+          <div className={styles.victree1}>VICTREE</div>
+        </div>
+      </main>
     </div>
   );
 };

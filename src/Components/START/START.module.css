@@ -1,80 +1,196 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 body {
-  	margin: 0; line-height: normal;
+  margin: 0;
+  line-height: normal;
 }
-.kombat {
-    position: absolute;
-    top: 768.41px;
-    left: 764px;
-    display: inline-block;
-    width: 624px;
-    height: 208.9px;
-    transform:  rotate(-0.5deg);
-    transform-origin: 0 0;
-    cursor: pointer;
-}
-.baralobaTheEagleHillsMine {
-    position: absolute;
-    top: -63px;
-    left: -180px;
-    width: 639.4px;
-    height: 607.4px;
-    object-fit: contain;
-}
-.baralobaAlongTheHewbankPr {
-    position: absolute;
-    top: 51px;
-    left: 625px;
-    width: 751.7px;
-    height: 757.2px;
-    object-fit: contain;
-}
-.baralobaAlongTheHewbankPr1 {
-    position: absolute;
-    top: -214px;
-    left: 293px;
-    width: 664.1px;
-    height: 609px;
-    object-fit: contain;
-}
-.markedCitiesCollinaltaPre {
-    position: absolute;
-    top: 69px;
-    left: 95px;
-    width: 860px;
-    height: 1032.2px;
-    object-fit: contain;
-}
-.baralobaTheEagleHillsMine1 {
-    position: absolute;
-    top: -28px;
-    left: 1147px;
-    width: 639.4px;
-    height: 607.4px;
-    object-fit: contain;
-}
-.vectorIcon {
-    position: absolute;
-    height: 7.73%;
-    width: 5.39%;
-    top: 89.26%;
-    right: 90.72%;
-    bottom: 3.01%;
-    left: 3.89%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    cursor: pointer;
-}
-.start {
-    width: 100%;
-    position: relative;
-    background-color: #fff;
-    height: 1024px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 137px;
-    color: #487400;
-    font-family: 'Cinzel Decorative';
+:root {
+  /* fonts */
+  --font-cinzel-decorative: "Cinzel Decorative";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-61xl: 80px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-olivedrab-100: #487400;
+  --color-black: #000;
+  --color-gray: #1e1e1e;
+
+  /* Gaps */
+  --gap-14xl: 33px;
+  --gap-34xl: 53px;
+  --gap-20xl: 39px;
+
+  /* Paddings */
+  --padding-23xl: 42px;
+  --padding-10xs: 3px;
+  --padding-45xl: 64px;
+  --padding-6xs: 7px;
+  --padding-12xl: 31px;
+  --padding-mini: 15px;
+  --padding-lg: 18px;
+
+  /* Border radiuses */
+  --br-37xl: 56px;
 }
 
+.confix,
+.kombat {
+  position: relative;
+  display: inline-block;
+  transform: rotate(1deg);
+  flex-shrink: 0;
+}
+.kombat {
+  margin: 0;
+  align-self: stretch;
+  height: 219.8px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.confix {
+  flex: 1;
+  max-width: 100%;
+}
+.confixWrapper,
+.kombatParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.confixWrapper {
+  flex-direction: row;
+  padding: 0 128px 0 130px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-top: -30.8px;
+  font-size: var(--font-size-61xl);
+}
+.kombatParent {
+  flex-direction: column;
+}
+.exit {
+  flex: 1;
+  position: relative;
+  transform: rotate(1deg);
+}
+.exitWrapper,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.exitWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 212px 0 213px;
+  font-size: var(--font-size-61xl);
+}
+.frameParent {
+  position: absolute;
+  top: 544px;
+  left: 783px;
+  width: 627.5px;
+  flex-direction: column;
+  gap: 23px;
+  max-width: 100%;
+}
+.baralobaAlongTheHewbankPr,
+.baralobaAlongTheHewbankPr1 {
+  position: absolute;
+  top: -82px;
+  left: 690px;
+  width: 751.7px;
+  height: 757.2px;
+  object-fit: contain;
+  z-index: 1;
+}
+.baralobaAlongTheHewbankPr1 {
+  top: -360px;
+  left: 291px;
+  width: 664.1px;
+  height: 800px;
+  z-index: 2;
+}
+.baralobaTheEagleHillsMine,
+.markedCitiesCollinaltaPre {
+  position: absolute;
+  top: -78px;
+  left: 56px;
+  width: 900px;
+  height: 1032.2px;
+  object-fit: contain;
+  z-index: 3;
+}
+.baralobaTheEagleHillsMine {
+  top: -170px;
+  left: 1100px;
+  width: 639.4px;
+  height: 607.4px;
+  z-index: 2;
+}
+.navigationIcon {
+  position: absolute;
+  top: 914px;
+  left: 56px;
+  width: 77.6px;
+  height: 79.2px;
+  z-index: 4;
+}
+.baralobaTheEagleHillsMine1 {
+  position: absolute;
+  top: -223px;
+  left: -186px;
+  width: 639.4px;
+  height: 607.4px;
+  object-fit: contain;
+  z-index: 4;
+}
+.preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 993.2px;
+}
+.start {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 137px;
+  color: var(--color-olivedrab-100);
+  font-family: var(--font-cinzel-decorative);
+}
+@media screen and (max-width: 767px) {
+  .kombat {
+    font-size: 55px;
+  }
+  .confix,
+  .exit {
+    font-size: var(--font-size-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .kombat {
+    font-size: 34px;
+  }
+  .confix,
+  .exit {
+    font-size: var(--font-size-5xl);
+  }
+}

@@ -1,0 +1,194 @@
+.interestRate {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.interestRateWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-25xl) 0 var(--padding-26xl);
+}
+.frameChild {
+  height: 114px;
+  width: 353px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.separator {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  height: 114px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-12xl) var(--padding-147xl) var(--padding-13xl);
+  max-width: 100%;
+  z-index: 2;
+}
+.financialPair,
+.initialBudgetContainer,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.financialPair {
+  width: 353px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  max-width: 100%;
+}
+.initialBudgetContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-30xl) 0 var(--padding-31xl);
+}
+.b {
+  position: relative;
+  display: inline-block;
+  min-width: 45px;
+  z-index: 3;
+}
+.financialPair1,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-self: stretch;
+  height: 114px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-12xl) var(--padding-130xl) var(--padding-13xl);
+  z-index: 2;
+}
+.financialPair1 {
+  flex-direction: column;
+  gap: var(--gap-17xl);
+}
+.maximumSpawnsPer {
+  width: 329px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.initialBudgetContainer1,
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleContainer {
+  height: 114px;
+  width: 353px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  justify-content: flex-start;
+  padding: var(--padding-12xl) var(--padding-137xl) var(--padding-13xl);
+  z-index: 2;
+}
+.initialBudgetContainer1 {
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xs) 0 0;
+}
+.financialPairParent,
+.spawnsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.financialPairParent {
+  align-items: flex-start;
+  gap: var(--gap-17xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .financialPairParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .b,
+  .interestRate,
+  .maximumSpawnsPer,
+  .separator {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .financialPairParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .interestRate {
+    font-size: var(--font-size-lgi);
+  }
+  .interestRateWrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .separator {
+    font-size: var(--font-size-lgi);
+  }
+  .initialBudgetContainer,
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .b {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .financialPair1 {
+    gap: var(--gap-lg);
+  }
+  .maximumSpawnsPer {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .financialPairParent {
+    gap: var(--gap-lg);
+  }
+}

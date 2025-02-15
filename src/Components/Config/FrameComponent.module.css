@@ -1,0 +1,91 @@
+.initialMinionHp {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.turnDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-28xl) 0 var(--padding-34xl);
+}
+.frameChild {
+  height: 114px;
+  width: 353px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.hpValue {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent,
+.turnDetailsParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 353px;
+  height: 114px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-white);
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-12xl) var(--padding-127xl) var(--padding-13xl);
+  z-index: 2;
+}
+.turnDetailsParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-xs);
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .hpValue,
+  .initialMinionHp {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .initialMinionHp {
+    font-size: var(--font-size-lgi);
+  }
+  .turnDetails {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .hpValue {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
