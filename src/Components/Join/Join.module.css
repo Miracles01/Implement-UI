@@ -1,0 +1,75 @@
+.join1Icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1024px;
+    object-fit: cover;
+}
+.magePreviewRev11Icon {
+    position: absolute;
+    top: 455px;
+    left: 49px;
+    width: 780px;
+    height: 554px;
+    object-fit: cover;
+}
+.vikingPreviewRev11Icon {
+    position: absolute;
+    top: 455px;
+    left: 720px;
+    width: 738.6px;
+    height: 584.5px;
+    object-fit: contain;
+}
+.shadowRoguePreviewRev11 {
+    position: absolute;
+    top: -95px;
+    left: -104px;
+    width: 862px;
+    height: 692px;
+    object-fit: contain;
+}
+.restlessSpiritPreviewRev1 {
+    position: absolute;
+    top: -37px;
+    left: 913px;
+    width: 646px;
+    height: 507px;
+    object-fit: cover;
+}
+.joinGame {
+    position: absolute;
+    top: 334px;
+    left: 476.08px;
+    display: inline-block;
+    width: 595.2px;
+    height: 174.5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform:  rotate(0.3deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.div {
+    position: absolute;
+    top: 511px;
+    left: 671.08px;
+    display: inline-block;
+    width: 126.7px;
+    height: 174.5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform:  rotate(0.3deg);
+    transform-origin: 0 0;
+}
+.join {
+    width: 100%;
+    position: relative;
+    background-color: #aaece8;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 96px;
+    color: #fff;
+    font-family: 'Coming Soon';
+}
+

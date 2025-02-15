@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+.kombat {
+    position: absolute;
+    top: 768.41px;
+    left: 764px;
+    display: inline-block;
+    width: 624px;
+    height: 208.9px;
+    transform:  rotate(-0.5deg);
+    transform-origin: 0 0;
+    cursor: pointer;
+}
+.baralobaTheEagleHillsMine {
+    position: absolute;
+    top: -63px;
+    left: -180px;
+    width: 639.4px;
+    height: 607.4px;
+    object-fit: contain;
+}
+.baralobaAlongTheHewbankPr {
+    position: absolute;
+    top: 51px;
+    left: 625px;
+    width: 751.7px;
+    height: 757.2px;
+    object-fit: contain;
+}
+.baralobaAlongTheHewbankPr1 {
+    position: absolute;
+    top: -214px;
+    left: 293px;
+    width: 664.1px;
+    height: 609px;
+    object-fit: contain;
+}
+.markedCitiesCollinaltaPre {
+    position: absolute;
+    top: 69px;
+    left: 95px;
+    width: 860px;
+    height: 1032.2px;
+    object-fit: contain;
+}
+.baralobaTheEagleHillsMine1 {
+    position: absolute;
+    top: -28px;
+    left: 1147px;
+    width: 639.4px;
+    height: 607.4px;
+    object-fit: contain;
+}
+.vectorIcon {
+    position: absolute;
+    height: 7.73%;
+    width: 5.39%;
+    top: 89.26%;
+    right: 90.72%;
+    bottom: 3.01%;
+    left: 3.89%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.start {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 137px;
+    color: #487400;
+    font-family: 'Cinzel Decorative';
+}
+
