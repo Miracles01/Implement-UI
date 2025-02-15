@@ -1,75 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-coming-soon: "Coming Soon";
+  --font-inter: Inter;
+  --font-cinzel-decorative: "Cinzel Decorative";
+
+  /* font sizes */
+  --font-size-77xl: 96px;
+  --font-size-10xl: 29px;
+  --font-size-29xl: 48px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-7xl: 26px;
+  --font-size-5xl: 24px;
+  --font-size-61xl: 80px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-palegreen: #8aff96;
+  --color-olivedrab-100: #487400;
+  --color-gray: #1e1e1e;
+
+  /* Gaps */
+  --gap-lg: 18px;
+  --gap-17xl: 36px;
+  --gap-29xl: 48px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-11xl: 30px;
+  --gap-35xl-5: 54.5px;
+  --gap-8xl: 27px;
+  --gap-24xl: 43px;
+  --gap-2xl: 21px;
+  --gap-2xs: 11px;
+
+  /* Paddings */
+  --padding-30xl: 49px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-12xl: 31px;
+  --padding-194xl: 213px;
+  --padding-xl: 20px;
+  --padding-21xl: 40px;
+  --padding-47xl: 66px;
+  --padding-127xl: 146px;
+  --padding-13xl: 32px;
+  --padding-4xl: 23px;
+  --padding-3xl: 22px;
+  --padding-9xs: 4px;
+  --padding-105xl: 124px;
+  --padding-48xl: 67px;
+  --padding-8xs: 5px;
+  --padding-116xl: 135px;
+  --padding-sm: 14px;
+  --padding-3xs: 10px;
+  --padding-28xl: 47px;
+  --padding-34xl: 53px;
+  --padding-5xs: 8px;
+  --padding-137xl: 156px;
+  --padding-130xl: 149px;
+  --padding-31xl: 50px;
+  --padding-2xs: 11px;
+  --padding-147xl: 166px;
+  --padding-25xl: 44px;
+  --padding-26xl: 45px;
+  --padding-lg: 18px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-37xl: 56px;
+}
+
 .join1Icon {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1440px;
-    height: 1024px;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
     object-fit: cover;
-}
-.magePreviewRev11Icon {
-    position: absolute;
-    top: 455px;
-    left: 49px;
-    width: 780px;
-    height: 554px;
-    object-fit: cover;
-}
-.vikingPreviewRev11Icon {
+  }
+  .vikingPreviewRev11Icon {
     position: absolute;
     top: 455px;
     left: 720px;
     width: 738.6px;
     height: 584.5px;
     object-fit: contain;
-}
-.shadowRoguePreviewRev11 {
+    z-index: 2;
+  }
+  .restlessSpiritPreviewRev1,
+  .shadowRoguePreviewRev11 {
     position: absolute;
     top: -95px;
     left: -104px;
     width: 862px;
     height: 692px;
     object-fit: contain;
-}
-.restlessSpiritPreviewRev1 {
-    position: absolute;
+    z-index: 3;
+  }
+  .restlessSpiritPreviewRev1 {
     top: -37px;
     left: 913px;
     width: 646px;
     height: 507px;
     object-fit: cover;
-}
-.joinGame {
+  }
+  .gamePreviews {
+    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 334px;
-    left: 476.08px;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .joinGame {
+    height: 178.2px;
+    flex: 1;
+    position: relative;
     display: inline-block;
-    width: 595.2px;
-    height: 174.5px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transform:  rotate(0.3deg);
-    transform-origin: 0 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+      0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+      0 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0.3deg);
+    max-width: 100%;
     cursor: pointer;
-}
-.div {
-    position: absolute;
-    top: 511px;
-    left: 671.08px;
+    z-index: 4;
+  }
+  .joinGameButton {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 319px 0 426px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .magePreviewRev11Icon {
+    height: 554px;
+    width: 780px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+    max-width: 100%;
+  }
+  .div {
+    width: 128.8px;
+    position: relative;
     display: inline-block;
-    width: 126.7px;
-    height: 174.5px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transform:  rotate(0.3deg);
-    transform-origin: 0 0;
-}
-.join {
+    flex-shrink: 0;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+      0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25),
+      0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0.3deg);
+    z-index: 5;
+  }
+  .join,
+  .magePreviewRev11Parent {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .magePreviewRev11Parent {
+    width: 780px;
+    height: 554px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 56px var(--padding-12xl);
+    background-image: url(/public/frame-1@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+    z-index: 1;
+    margin-top: -57.2px;
+  }
+  .join {
     width: 100%;
     position: relative;
     background-color: #aaece8;
-    height: 1024px;
     overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 334px var(--padding-30xl) var(--padding-mini);
+    line-height: normal;
+    letter-spacing: normal;
     text-align: left;
-    font-size: 96px;
-    color: #fff;
-    font-family: 'Coming Soon';
-}
-
+    font-size: var(--font-size-77xl);
+    color: var(--color-white);
+    font-family: var(--font-coming-soon);
+  }
+  @media screen and (max-width: 1200px) {
+    .joinGameButton {
+      padding-left: var(--padding-194xl);
+      padding-right: 159px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .div,
+    .joinGame {
+      font-size: var(--font-size-29xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .joinGameButton {
+      padding-left: 106px;
+      padding-right: 79px;
+      box-sizing: border-box;
+    }
+    .join {
+      padding-left: var(--padding-5xl);
+      padding-right: var(--padding-5xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .joinGame {
+      font-size: var(--font-size-10xl);
+    }
+    .joinGameButton {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .div {
+      font-size: var(--font-size-10xl);
+    }
+  }
+  

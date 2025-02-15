@@ -1,88 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Coming+Soon:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400&display=swap");
 body {
-  	margin: 0; line-height: normal;
+  margin: 0;
+  line-height: normal;
 }
-.victreeChild {
-    position: absolute;
-    top: -229.5px;
-    left: 178.5px;
-    width: 1465.4px;
-    height: 1370.1px;
-    object-fit: contain;
+:root {
+  /* fonts */
+  --font-coming-soon: "Coming Soon";
+  --font-inter: Inter;
+  --font-cinzel-decorative: "Cinzel Decorative";
+
+  /* font sizes */
+  --font-size-77xl: 96px;
+  --font-size-10xl: 29px;
+  --font-size-13xl: 32px;
+  --font-size-lgi: 19px;
+  --font-size-5xl: 24px;
+  --font-size-61xl: 80px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-gray-100: #1e1e1e;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-olivedrab-100: #487400;
+
+  /* Gaps */
+  --gap-lg: 18px;
+  --gap-29xl: 48px;
+  --gap-5xl: 24px;
+  --gap-xs: 12px;
+  --gap-11xl: 30px;
+  --gap-35xl-5: 54.5px;
+  --gap-8xl: 27px;
+  --gap-24xl: 43px;
+  --gap-2xl: 21px;
+  --gap-17xl: 36px;
+  --gap-2xs: 11px;
+
+  /* Paddings */
+  --padding-30xl: 49px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-12xl: 31px;
+  --padding-194xl: 213px;
+  --padding-xl: 20px;
+  --padding-21xl: 40px;
+  --padding-47xl: 66px;
+  --padding-127xl: 146px;
+  --padding-13xl: 32px;
+  --padding-4xl: 23px;
+  --padding-3xl: 22px;
+  --padding-9xs: 4px;
+  --padding-105xl: 124px;
+  --padding-48xl: 67px;
+  --padding-8xs: 5px;
+  --padding-116xl: 135px;
+  --padding-sm: 14px;
+  --padding-3xs: 10px;
+  --padding-28xl: 47px;
+  --padding-34xl: 53px;
+  --padding-5xs: 8px;
+  --padding-137xl: 156px;
+  --padding-130xl: 149px;
+  --padding-31xl: 50px;
+  --padding-2xs: 11px;
+  --padding-147xl: 166px;
+  --padding-25xl: 44px;
+  --padding-26xl: 45px;
+  --padding-lg: 18px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-37xl: 56px;
 }
-.victreeItem {
-    position: absolute;
-    top: -338.28px;
-    left: 417px;
-    width: 1038.2px;
-    height: 1343.6px;
-    object-fit: contain;
+.frameChild,
+.frameInner,
+.frameItem,
+.polygonIcon {
+  position: absolute;
+  top: -229.5px;
+  left: 178.5px;
+  width: 1465.4px;
+  height: 1370.1px;
+  object-fit: contain;
 }
-.victreeInner {
-    position: absolute;
-    top: -250.44px;
-    left: -171.22px;
-    width: 1337.2px;
-    height: 1359px;
-    object-fit: contain;
+.frameInner,
+.frameItem,
+.polygonIcon {
+  top: -338.3px;
+  left: 417px;
+  width: 1038.2px;
+  height: 1343.6px;
+  z-index: 1;
+}
+.frameInner,
+.polygonIcon {
+  top: -250.4px;
+  left: -171.2px;
+  width: 1337.2px;
+  height: 1359px;
+  z-index: 2;
 }
 .polygonIcon {
-    position: absolute;
-    top: -367.58px;
-    left: 121.33px;
-    width: 879.7px;
-    height: 1309.8px;
-    object-fit: contain;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
 }
 .previewRev12Icon {
-    position: absolute;
-    height: 34.08%;
-    width: 26.39%;
-    top: 38.96%;
-    right: 36.81%;
-    bottom: 26.95%;
-    left: 36.81%;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: cover;
+  position: absolute;
+  top: 766.6px;
+  left: 408.7px;
+  width: 380px;
+  height: 349px;
+  object-fit: cover;
+  z-index: 4;
 }
 .badgeFreeVectorIconsDesign {
-    position: absolute;
-    top: 664px;
-    left: 537px;
-    width: 212.9px;
-    height: 220.5px;
-    object-fit: contain;
+  position: absolute;
+  top: 1031.6px;
+  left: 415.7px;
+  width: 212.9px;
+  height: 220.5px;
+  object-fit: contain;
+  z-index: 5;
+}
+.vectorGroup {
+  position: absolute;
+  top: -367.6px;
+  left: 121.3px;
+  width: 879.7px;
+  height: 1309.8px;
 }
 .adobeFireworksPaperPngFr {
-    position: absolute;
-    top: 201px;
-    left: 450px;
-    width: 600px;
-    height: 683px;
-    object-fit: cover;
+  height: 683px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 6;
 }
 .victree1 {
-    position: absolute;
-    top: 261px;
-    left: 449.99px;
-    display: inline-block;
-    width: 741.4px;
-    height: 168.7px;
-    text-shadow: 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff;
-    transform:  rotate(3.1deg);
-    transform-origin: 0 0;
+  height: 208px;
+  width: 750.4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 60.53px;
+  right: -152.47px;
+  display: inline-block;
+  text-shadow: 0 0 0#fff, 0 0 0#fff, 0 0 0#fff, 0 0 0#fff, 0 0 0#fff, 0 0 0#fff;
+  transform: rotate(3.1deg);
+  transform-origin: 0 0;
+  z-index: 7;
+}
+.adobeFireworksPaperPngFrParent {
+  position: absolute;
+  top: 201px;
+  left: 450px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vectorParent {
+  height: 1024px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: 170px;
+  color: var(--color-white);
+  font-family: var(--font-coming-soon);
 }
 .victree {
-    width: 100%;
-    position: relative;
-    background-color: #100c0d;
-    height: 1024px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 170px;
-    color: #fff;
-    font-family: 'Coming Soon';
+  width: 100%;
+  position: relative;
+  background-color: #100c0d;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
 }
-
+@media screen and (max-width: 767px) {
+  .victree1 {
+    font-size: 68px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .victree1 {
+    font-size: 42px;
+  }
+}
