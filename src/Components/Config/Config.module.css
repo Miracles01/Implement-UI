@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+
+.config11 {
+    position: absolute;
+    top: 0px;
+    left: -67px;
+    width: 1575px;
+    height: 1024px;
+    object-fit: cover;
+}
+.configChild {
+    position: absolute;
+    top: 56.01px;
+    left: 69px;
+    border-radius: 20px;
+    background-color: rgba(200, 228, 64, 0.8);
+    width: 1300.3px;
+    height: 902.3px;
+}
+.text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    white-space: pre-wrap;
+    align-items: center;
+    justify-content: center;
+}
+.score {
+    position: absolute;
+    height: 9.86%;
+    top: 18.16%;
+    right: 1019px;
+    bottom: 71.97%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.interestRate {
+    position: absolute;
+    top: 134px;
+    left: 136px;
+    font-size: 32px;
+}
+.score1 {
+    position: absolute;
+    top: calc(50% + 34.84px);
+    left: calc(50% - 198.66px);
+    border-radius: 72.18px;
+    background-color: #417b03;
+    border: 5.2px solid #1e1e1e;
+    box-sizing: border-box;
+    width: 397.3px;
+    height: 90.3px;
+}
+.configuration {
+    position: absolute;
+    top: 18px;
+    left: 14px;
+    display: inline-block;
+    width: 359px;
+}
+.scoreParent {
+    position: absolute;
+    top: calc(50% - 497px);
+    left: calc(50% - 215px);
+    width: 387px;
+    height: 80px;
+    font-size: 36px;
+    color: #1e1e1e;
+}
+.score2 {
+    position: absolute;
+    height: 9.86%;
+    top: 18.16%;
+    right: 577px;
+    bottom: 71.97%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.initialMinionHp {
+    position: absolute;
+    top: 134px;
+    left: 580px;
+    font-size: 32px;
+}
+.text2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score3 {
+    position: absolute;
+    height: 9.86%;
+    top: 18.16%;
+    right: 135px;
+    bottom: 71.97%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.costToPurchase {
+    position: absolute;
+    top: 134px;
+    left: 976px;
+    font-size: 32px;
+}
+.score4 {
+    position: absolute;
+    height: 9.86%;
+    top: 44.53%;
+    right: 1019px;
+    bottom: 45.61%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.budgetPerTurn {
+    position: absolute;
+    top: 385px;
+    left: 127px;
+    font-size: 32px;
+}
+.score5 {
+    position: absolute;
+    height: 9.86%;
+    top: 44.53%;
+    right: 577px;
+    bottom: 45.61%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.maximumBudget {
+    position: absolute;
+    top: 383px;
+    left: 569px;
+    font-size: 32px;
+}
+.score6 {
+    position: absolute;
+    height: 9.86%;
+    top: 44.53%;
+    right: 135px;
+    bottom: 45.61%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.initialBudget {
+    position: absolute;
+    top: 383px;
+    left: 1041px;
+    font-size: 32px;
+}
+.score7 {
+    position: absolute;
+    height: 9.86%;
+    top: 72.27%;
+    right: 1019px;
+    bottom: 17.87%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.maximumSpawnsPer {
+    position: absolute;
+    top: 644px;
+    left: 115px;
+    font-size: 32px;
+    display: inline-block;
+    width: 328px;
+}
+.score8 {
+    position: absolute;
+    height: 9.86%;
+    top: 72.27%;
+    right: 572px;
+    bottom: 17.87%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.costToSpawn {
+    position: absolute;
+    top: 647px;
+    left: 536px;
+    font-size: 32px;
+}
+.score9 {
+    position: absolute;
+    height: 9.86%;
+    top: 72.27%;
+    right: 123px;
+    bottom: 17.87%;
+    border-radius: 56px;
+    background-color: #fff;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 321px;
+}
+.maximumTurnsPer {
+    position: absolute;
+    top: 636px;
+    left: 1025px;
+    font-size: 32px;
+    display: inline-block;
+    width: 288px;
+}
+.score10 {
+    position: absolute;
+    height: 110.26%;
+    top: -5.13%;
+    right: -4px;
+    bottom: -5.13%;
+    border-radius: 56px;
+    background-color: #8aff96;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    width: 295px;
+}
+.done {
+    position: absolute;
+    top: 19px;
+    left: 97px;
+    font-size: 32px;
+    cursor: pointer;
+}
+.scoreGroup {
+    position: absolute;
+    height: 7.62%;
+    top: 89.75%;
+    right: 590px;
+    bottom: 2.64%;
+    width: 287px;
+}
+.vectorIcon {
+    position: absolute;
+    height: 10.54%;
+    width: 8.82%;
+    top: 87.21%;
+    right: 1.87%;
+    bottom: 2.26%;
+    left: 89.31%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.vectorIcon1 {
+    position: absolute;
+    height: 10.54%;
+    width: 8.82%;
+    top: 87.21%;
+    right: 89.17%;
+    bottom: 2.26%;
+    left: 2.01%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.config {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1024px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+}
+

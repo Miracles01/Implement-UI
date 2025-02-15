@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon:wght@400&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+.defeatChild {
+    position: absolute;
+    top: -229.5px;
+    left: 178.5px;
+    width: 1465.4px;
+    height: 1370.1px;
+    object-fit: contain;
+}
+.defeatItem {
+    position: absolute;
+    top: -338.28px;
+    left: 417px;
+    width: 1038.2px;
+    height: 1343.6px;
+    object-fit: contain;
+}
+.defeatInner {
+    position: absolute;
+    top: -250.44px;
+    left: -171.22px;
+    width: 1337.2px;
+    height: 1359px;
+    object-fit: contain;
+}
+.polygonIcon {
+    position: absolute;
+    top: -367.58px;
+    left: 121.33px;
+    width: 879.7px;
+    height: 1309.8px;
+    object-fit: contain;
+}
+.defeat1 {
+    position: absolute;
+    top: 255px;
+    left: 461.99px;
+    display: inline-block;
+    width: 611.6px;
+    height: 168.7px;
+    text-shadow: 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff, 0px 0px 0px #fff;
+    transform:  rotate(3.1deg);
+    transform-origin: 0 0;
+}
+.groupIcon {
+    position: absolute;
+    top: 405px;
+    left: 532px;
+    width: 375px;
+    height: 357px;
+    object-fit: cover;
+}
+.medalFreeIconsDesignedByF {
+    position: absolute;
+    top: 667px;
+    left: 561px;
+    width: 187px;
+    height: 190.2px;
+    object-fit: contain;
+}
+.defeat {
+    width: 100%;
+    position: relative;
+    background-color: #100c0d;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 170px;
+    color: #fff;
+    font-family: 'Coming Soon';
+}
+
