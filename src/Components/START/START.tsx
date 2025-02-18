@@ -1,54 +1,55 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./START.module.css";
 import React from "react";
 
 const START: FunctionComponent = () => {
+  const navigate = useNavigate();
+
+  // ฟังก์ชันนำทางไปหน้า Config
+  const onPlayClick = useCallback(() => {
+    navigate("/Config"); // เมื่อคลิก PLAY ไปที่หน้า Config
+  }, [navigate]);
+
+  const onConfigClick = useCallback(() => {
+    navigate("/Config"); // เมื่อคลิก CONFIX ไปที่หน้า Config
+  }, [navigate]);
+
   return (
     <div className={styles.start}>
-      <div className={styles.frameParent}>
-        <div className={styles.kombatParent}>
-          <h2 className={styles.kombat}>KOMBAT</h2>
-          <div className={styles.confixWrapper}>
-            <div className={styles.confix}>CONFIX</div>
-          </div>
-        </div>
-        <div className={styles.exitWrapper}>
-          <div className={styles.exit}>EXIT</div>
-        </div>
+      <div className={styles.kombatWrapper}>
+        <h2 className={styles.kombat}>KOMBAT</h2>
       </div>
-      <main className={styles.preview}>
-        <img
-          className={styles.baralobaAlongTheHewbankPr}
-          alt=""
-          src="src\public\START\888.png"
-        />
-        <img
-          className={styles.baralobaAlongTheHewbankPr1}
-          alt=""
-          src="src\public\START\Baraloba_ Along the Hewbank_preview_rev_1 (1) 2.png"
-        />
+      <section className={styles.markedCitiesCollinaltaPreWrapper}>
         <img
           className={styles.markedCitiesCollinaltaPre}
           alt=""
-          src="src\public\START\Marked Cities - Collinalta_preview_rev_1 1.png"
+          src="src/public/START/Marked Cities - Collinalta_preview_rev_1 1.png"
         />
-        <img
-          className={styles.baralobaTheEagleHillsMine}
-          alt=""
-          src="src\public\START\Baraloba_ The Eagle Hills Mines_preview_rev_1 2.png"
-        />
-        <img
-          className={styles.navigationIcon}
-          loading="lazy"
-          alt=""
-          src="src\public\START\Vector.png"
-        />
-        <img
-          className={styles.baralobaTheEagleHillsMine1}
-          alt=""
-          src="src\public\START\Baraloba_ The Eagle Hills Mines_preview_rev_1 1.png"
-        />
-      </main>
+      </section>
+      <section className={styles.navigationParent}>
+        <div className={styles.navigation}>
+          <img
+            className={styles.navigationIcon}
+            loading="lazy"
+            alt="Navigation Icon"
+            src="src/public/START/Vector.png"
+          />
+        </div>
+        <div className={styles.confixParent}>
+          <div className={styles.confix} onClick={onConfigClick}>
+            MODE
+          </div>
+          <div className={styles.menuOptions}>
+            <div className={styles.playExit} onClick={onPlayClick}>
+              <div className={styles.play}>PLAY</div>
+            </div>
+            <div className={styles.exit}>
+              <div className={styles.exit1}>EXIT</div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
