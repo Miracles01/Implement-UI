@@ -223,12 +223,12 @@ body {
 
 .previewRev11Icon {
     position: absolute;
-    top: 844px;
+    top: 400px;
     left: 298px;
     width: 300px;
     height: 247px;
     object-fit: contain;
-    animation: float 30s ease-in-out infinite; /* ใช้ animation เพื่อให้ไอคอนลอย */
+    animation: float 40s ease-in-out infinite; /* ใช้ animation เพื่อให้ไอคอนลอย */
 }
 
 /* กำหนด keyframes เพื่อให้ไอคอนลอย */
@@ -245,26 +245,32 @@ body {
 }
 
 .previewRev12Icon {
-    position: absolute;
-    top: 817px;
-    left: 1096px;
-    width: 300px;
-    height: 247px;
-    object-fit: contain;
-    animation: float 25s ease-in-out infinite; /* ใช้ animation เพื่อให้แมวลอย */
+  position: absolute;
+  width: 300px;
+  height: 247px;
+  object-fit: contain;
+  animation: float 30s ease-in-out infinite; /* ใช้ animation เพื่อให้แมวลอย */
+  top: 0;
+  left: 0;
 }
 
-/* กำหนด keyframes เพื่อให้แมวและลูกโป่งลอย */
+/* กำหนด keyframes เพื่อให้แมวลอยไปแบบสุ่มภายในหน้าจอ */
 @keyframes float {
-    0% {
-        transform: translateY(0); /* เริ่มต้นที่ตำแหน่งเดิม */
-    }
-    50% {
-        transform: translateY(-800px); /* ลอยขึ้น */
-    }
-    100% {
-        transform: translateY(0); /* กลับมาที่ตำแหน่งเดิม */
-    }
+  0% {
+    transform: translate(0, 0); /* เริ่มต้นที่ตำแหน่งเดิม */
+  }
+  25% {
+    transform: translate(calc(50vw - 150px), calc(50vh - 123px)); /* ขยับไปตำแหน่งกลางหน้าจอ */
+  }
+  50% {
+    transform: translate(calc(75vw - 150px), calc(30vh - 123px)); /* ขยับไปตำแหน่งขวา-กลาง */
+  }
+  75% {
+    transform: translate(calc(25vw - 150px), calc(70vh - 123px)); /* ขยับไปตำแหน่งซ้าย-กลาง */
+  }
+  100% {
+    transform: translate(0, 0); /* กลับมาที่ตำแหน่งเดิม */
+  }
 }
 
 .mode {

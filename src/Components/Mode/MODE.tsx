@@ -31,14 +31,9 @@ const MODE = () => {
         onClick={goBackToStart} // เมื่อคลิก จะกลับไปหน้า START
       />
       <img
-        className={styles.previewRev11Icon}
-        alt=""
-        src="public/ดาวน์โหลด 1_preview_rev_1.png"
-      />
-      <img
         className={styles.previewRev12Icon}
         alt=""
-        src="public/ดาวน์โหลด 1_preview_rev_1.png"
+        src="public\nian-cat.gif"
       />
     </div>
   );
