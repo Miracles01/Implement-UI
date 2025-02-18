@@ -8,11 +8,17 @@ const START: FunctionComponent = () => {
 
   // ฟังก์ชันนำทางไปหน้า Config
   const onPlayClick = useCallback(() => {
-    navigate("/Config"); // เมื่อคลิก PLAY ไปที่หน้า Config
+    navigate("/Config");
   }, [navigate]);
 
-  const onConfigClick = useCallback(() => {
-    navigate("/Config"); // เมื่อคลิก CONFIX ไปที่หน้า Config
+  // ฟังก์ชันนำทางไปหน้า MODE
+  const onModeClick = useCallback(() => {
+    navigate("/MODE");
+  }, [navigate]);
+
+  // ฟังก์ชันนำทางไปหน้า THANK
+  const onExitClick = useCallback(() => {
+    navigate("/THANK"); // ไปที่หน้า THANK
   }, [navigate]);
 
   return (
@@ -33,18 +39,18 @@ const START: FunctionComponent = () => {
             className={styles.navigationIcon}
             loading="lazy"
             alt="Navigation Icon"
-            src="src\public\START\Vector.png"
+            src="src/public/START/Vector.png"
           />
         </div>
         <div className={styles.confixParent}>
-          <div className={styles.confix} onClick={onConfigClick}>
+          <div className={styles.confix} onClick={onModeClick}>
             MODE
           </div>
           <div className={styles.menuOptions}>
             <div className={styles.playExit} onClick={onPlayClick}>
               <div className={styles.play}>PLAY</div>
             </div>
-            <div className={styles.exit}>
+            <div className={styles.exit} onClick={onExitClick}> {/* เรียกฟังก์ชัน onExitClick */}
               <div className={styles.exit1}>EXIT</div>
             </div>
           </div>
