@@ -1,24 +1,41 @@
-import { FunctionComponent, useState, useCallback } from "react";
+import { FunctionComponent, useState, useCallback, useEffect } from "react";
 import styles from "./Config.module.css";
 import React from "react";
 
 const Config: FunctionComponent = () => {
+  // กำหนดค่าเริ่มต้นของ state จากค่าใน localStorage หรือค่าเริ่มต้น
   const [inputs, setInputs] = useState({
-    interestRate: "",
-    initialBudget: "",
-    maximumBudget: "",
-    budgetPerTurn: "",
-    costToPurchaseHex: "",
-    maxTurnsPerGame: "",
+    interestRate: localStorage.getItem("interestRate") || "",
+    initialBudget: localStorage.getItem("initialBudget") || "",
+    maximumBudget: localStorage.getItem("maximumBudget") || "",
+    budgetPerTurn: localStorage.getItem("budgetPerTurn") || "",
+    costToPurchaseHex: localStorage.getItem("costToPurchaseHex") || "",
+    maxTurnsPerGame: localStorage.getItem("maxTurnsPerGame") || "",
   });
 
+  // ฟังก์ชันจัดการการเปลี่ยนแปลงและบันทึกข้อมูลลง localStorage
   const handleChange = (field: string, event: React.ChangeEvent<HTMLInputElement>) => {
-    setInputs({ ...inputs, [field]: event.target.value });
+    const newValue = event.target.value;
+    setInputs(prevState => {
+      const updatedInputs = { ...prevState, [field]: newValue };
+      // อัพเดทค่าใน localStorage ด้วย
+      localStorage.setItem(field, newValue);
+      return updatedInputs;
+    });
   };
 
   const onGroupContainerClick = useCallback(() => {
     console.log("Configuration Saved:", inputs);
   }, [inputs]);
+
+  useEffect(() => {
+    // ฟังก์ชันนี้จะทำการบันทึกค่าใน localStorage เมื่อหน้าโหลด
+    Object.entries(inputs).forEach(([key, value]) => {
+      if (value) {
+        localStorage.setItem(key, value);
+      }
+    });
+  }, []);
 
   return (
     <div className={styles.config}>
