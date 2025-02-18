@@ -8,4 +8,5 @@ import MINION from "./MINION/MINION";
 import MODE from "./MODE/MODE";
 import THANK from "../THANK";
 
-export { Config, Defeat, Gameplay, Join, START, Victree,MINION ,MODE,THANK};
+
+export { Config, Defeat, Gameplay, Join, START, Victree,MINION ,MODE,THANK,};
