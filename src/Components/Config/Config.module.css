@@ -1,198 +1,215 @@
-
-.config11,
-.configuration {
-  position: relative;
-  max-width: 100%;
-}
-.config11 {
-  height: 1024px;
-  flex: 1;
-  overflow: auto;
-  object-fit: auto;
-}
-.configuration {
-  width: 360px;
-  display: inline-block;
-  flex-shrink: 0;
-  z-index: 1;
-}
-.score,
-.scoreWrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.score {
-  border-radius: 72.2px;
-  background-color: #417b03;
-  border: 5.2px solid var(--color-gray);
-  box-sizing: border-box;
-  padding: var(--padding-lg) 13px var(--padding-lg) var(--padding-sm);
-  max-width: 103%;
-}
-.scoreWrapper {
-  height: 80px;
-  width: 387px;
-  margin: 0 !important;
-  position: absolute;
-  top: 90px;
-  left: 587px;
-  max-width: 100%;
-  z-index: 2;
-}
-.done {
-  position: absolute;
-  top: 19px;
-  left: 97px;
-  display: inline-block;
-  width: 93px;
-  height: 39px;
-  min-width: 93px;
-  cursor: pointer;
-  z-index: 3;
-}
-.scoreParent {
-  height: 78px;
-  width: 287px;
-  position: absolute;
-  margin: 1 !important;
-  bottom: 27px;
-  left: 630px;
-  font-size: var(--font-size-13xl);
-  color: var(--color-black);
-}
-.config11Parent {
-  position: absolute;
-  top: 0;
-  left: -67px;
-  width: 1575px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: center;
-  font-size: 36px;
-  color: var(--color-gray);
-  font-family: var(--font-inter);
-}
-.vectorIcon,
-.vectorIcon1 {
-  position: absolute;
-  top: 893px;
-  left: 1385px;
-  width: 140px;
-  height: 107.9px;
-  object-fit: contain;
-  cursor: pointer;
-  z-index: 2;
-}
-.vectorIcon1 {
-  left: 29px;
-}
-.main,
-.turnDisplayChild {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  margin: 0 !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.turnDisplayChild {
-  top: 0.91px;
-  right: 0.7px;
-  bottom: 0.09px;
-  border-radius: 20px;
-  background-color: rgba(200, 228, 64, 0.8);
-  z-index: 1;
-}
-.config,
-.hpContainer,
-.turnDisplay {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.hpContainer {
-  flex: 1;
-  flex-direction: row;
-  gap: 73px;
-  min-width: 522px;
-  max-width: 100%;
-}
-.config,
-.turnDisplay {
-  position: relative;
-  box-sizing: border-box;
-}
-.turnDisplay {
-  align-self: stretch;
-  flex-direction: row;
-  padding: 155px var(--padding-21xl) 95.3px var(--padding-mini);
-  gap: 89px;
-  max-width: 100%;
-}
 .config {
   width: 100%;
-  background-color: var(--color-white);
+  position: relative;
+  background-color: #fff;
+  height: 1024px;
   overflow: hidden;
+  text-align: center;
+  font-size: 36px;
+  color: #1e1e1e;
+  font-family: Itim;
+}
+
+.config11 {
+  position: absolute;
+  top: 0px;
+  left: -67px;
+  width: 1575.4px;
+  height: 1024px;
+  object-fit: cover;
+}
+
+.configChild {
+  position: absolute;
+  top: 17.76px;
+  left: 34.99px;
+  border-radius: 20px;
+  background-color: rgba(200, 228, 64, 0.8);
+  width: 692.5px;
+  height: 979.8px;
+}
+
+.scoreWrapper {
+  position: absolute;
+  top: calc(50% - 474px);
+  left: calc(50% - 521px);
+  width: 387px;
+  height: 80px;
+}
+
+.score {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 250px);
+  border-radius: 72.18px;
+  background-color: #417b03;
+  border: 5.2px solid #1e1e1e;
+  box-sizing: border-box;
+  width: 397.3px;
+  height: 90.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10.3px 21.9px;
+}
+
+.configuration {
+  width: 359px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.markedCitiesCollinaltaPre {
+  position: absolute;
+  top: -50px;
+  left: 776px;
+  width: 677.3px;
+  height: 1004.1px;
+  object-fit: contain;
+  
+  animation: moveImage 5s infinite alternate; /* เพิ่ม animation */
+}
+
+/* กำหนดการเคลื่อนไหว */
+@keyframes moveImage {
+  0% {
+    transform: translateX(0); /* เริ่มต้นที่ตำแหน่งเดิม */
+  }
+  50% {
+    transform: translateX(20px); /* ขยับไปทางขวา */
+  }
+  100% {
+    transform: translateX(0); /* กลับมาที่ตำแหน่งเดิม */
+  }
+}
+
+.property1defaultParent {
+  position: absolute;
+  top: 177px;
+  left: 104px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 555px;
+  height: 746px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+}
+
+.interestRateParent {
+  width: 515px;
+  display: flex;
   flex-direction: column;
-  padding: 55px 63px 65.7px 69px;
-  line-height: normal;
-  letter-spacing: normal;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
 }
-@media screen and (max-width: 1200px) {
-  .turnDisplay {
-    flex-wrap: wrap;
-  }
+
+.interestRate {
+  align-self: stretch;
+  position: relative;
 }
-@media screen and (max-width: 1050px) {
-  .configuration {
-    font-size: var(--font-size-10xl);
-  }
-  .done {
-    font-size: var(--font-size-7xl);
-  }
-  .hpContainer {
-    gap: var(--gap-17xl);
-    flex-wrap: wrap;
-  }
-  .turnDisplay {
-    padding-top: 101px;
-    padding-bottom: 62px;
-    box-sizing: border-box;
-  }
+
+.enterInputWrapper {
+  align-self: stretch;
+  border: 1px solid #6b706a;
+  box-sizing: border-box;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  color: #878384;
 }
-@media screen and (max-width: 750px) {
-  .hpContainer {
-    min-width: 100%;
-  }
-  .turnDisplay {
-    gap: 44px;
-  }
-  .config {
-    padding-left: 34px;
-    padding-right: var(--padding-12xl);
-    box-sizing: border-box;
-  }
+
+.enterInput {
+  width: 100%;
+  font-size: 18px;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: transparent;
 }
-@media screen and (max-width: 450px) {
-  .configuration {
-    font-size: 22px;
-  }
-  .done {
-    font-size: var(--font-size-lgi);
-  }
-  .hpContainer {
-    gap: var(--gap-lg);
-  }
-  .turnDisplay {
-    gap: 22px;
-    padding-top: var(--padding-47xl);
-    padding-bottom: var(--padding-21xl);
-    box-sizing: border-box;
-  }
+
+.property1variant1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
+
+.property1variant2 {
+  position: absolute;
+  top: 141px;
+  left: 20px;
+}
+
+.property1variant3 {
+  position: absolute;
+  top: 262px;
+  left: 20px;
+}
+
+.property1variant4 {
+  position: absolute;
+  top: 383px;
+  left: 20px;
+}
+
+.property1variant5 {
+  position: absolute;
+  top: 504px;
+  left: 20px;
+}
+
+.property1variant6 {
+  position: absolute;
+  top: 625px;
+  left: 20px;
+}
+
+.rectangleParent {
+  position: absolute;
+  top: 865px;
+  left: 975px;
+  width: 279px;
+  height: 70px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.groupChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 100px;
+  background-color: #4f8901;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 279px;
+  height: 70px;
+  transition: box-shadow 0.3s ease-in-out; /* เพิ่ม transition ให้กับแสง */
+}
+
+/* เมื่อเอาเมาส์ไปชี้ที่กล่อง .groupChild */
+.groupChild:hover {
+  box-shadow: 0 0 20px rgba(0, 255, 0, 1), /* สีเขียวเรืองแสง */
+              0 0 30px rgba(255, 255, 255, 0.8); /* สีขาวเรืองแสง */
+}
+
+.done {
+  position: absolute;
+  top: 12.35px;
+  left: 56.77px;
+  display: inline-block;
+  width: 165.5px;
+  height: 45.3px;
+  text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+
+

@@ -1,0 +1,674 @@
+.config111 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameChild {
+  height: 80px;
+  width: 289px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-olivedrab-100);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.minion1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+  z-index: 1;
+}
+.rectangleParent,
+.structure {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  height: 80px;
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-olivedrab-100);
+  border: 2px solid var(--color-black);
+  padding: var(--padding-mini) var(--padding-58xl) var(--padding-mini) 78px;
+  z-index: 2;
+}
+.structure {
+  padding: 0 526px;
+  max-width: 100%;
+}
+.boundingRect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.97px;
+  right: 0.7px;
+  bottom: 0.13px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-yellowgreen);
+  z-index: 1;
+}
+.previewBackground {
+  position: absolute;
+  top: 84px;
+  left: 0;
+  background-color: #e77c76;
+  width: 627px;
+  height: 689px;
+}
+.previewRev11Icon,
+.vectorIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.previewRev11Icon {
+  height: 72.21%;
+  width: 67.89%;
+  top: 9.98%;
+  right: 23.99%;
+  bottom: 17.81%;
+  left: 8.12%;
+  object-fit: cover;
+  z-index: 1;
+}
+.vectorParent {
+  position: absolute;
+  top: 535px;
+  left: 362px;
+  width: 220.5px;
+  height: 237.5px;
+  cursor: pointer;
+  z-index: 1;
+}
+.frameItem {
+  position: absolute;
+  top: 14px;
+  left: 22px;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.crystalFighterPreviewRev1 {
+  position: absolute;
+  height: 66.27%;
+  width: 41.06%;
+  top: 0;
+  right: 58.94%;
+  bottom: 33.73%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 559px;
+  left: 20px;
+  width: 263px;
+  height: 169px;
+  z-index: 1;
+}
+.frameInner {
+  position: absolute;
+  top: 24px;
+  left: 22px;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.restlessSpiritPreviewRev1 {
+  position: absolute;
+  height: 70.84%;
+  width: 51.75%;
+  top: 0;
+  right: 48.25%;
+  bottom: 29.16%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleContainer {
+  position: absolute;
+  top: 368px;
+  left: 314px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  width: 263px;
+  height: 179px;
+  z-index: 2;
+}
+.heroTop {
+  position: absolute;
+  top: 24px;
+  left: 20px;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.chronomancerPreviewRev11Icon {
+  position: absolute;
+  height: 81.12%;
+  width: 54.75%;
+  top: 0;
+  right: 45.25%;
+  bottom: 18.88%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.heroTopParent {
+  position: absolute;
+  top: 368px;
+  left: 22px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  width: 261px;
+  height: 179px;
+  z-index: 1;
+}
+.thiefRect {
+  position: absolute;
+  top: 10px;
+  left: 31px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.humanThiefPreviewRev11 {
+  position: absolute;
+  height: 74.61%;
+  width: 55.85%;
+  top: 0;
+  right: 44.15%;
+  bottom: 25.39%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.thiefRectParent {
+  position: absolute;
+  top: 199px;
+  left: 305px;
+  width: 272px;
+  height: 165px;
+  z-index: 1;
+}
+.vikingRect {
+  position: absolute;
+  top: 18px;
+  left: 35px;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.vikingPreviewRev12Icon {
+  position: absolute;
+  height: 66.88%;
+  width: 46.05%;
+  top: 0;
+  right: 53.95%;
+  bottom: 33.12%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.crownRedSealWaxStampHdPn,
+.vikingRectParent {
+  position: absolute;
+  top: 191px;
+  left: 7px;
+  width: 276px;
+  height: 173px;
+  z-index: 1;
+}
+.crownRedSealWaxStampHdPn {
+  top: 0;
+  left: 217px;
+  width: 194px;
+  height: 179px;
+  object-fit: cover;
+}
+.previewBackgroundParent {
+  height: 773px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.fighters,
+.fightersInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.fightersInner {
+  align-self: stretch;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.fighters {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 2px;
+  box-sizing: border-box;
+  min-width: 408px;
+}
+.classBackground {
+  position: absolute;
+  top: 73px;
+  left: 0;
+  background-color: #22823c;
+  width: 627px;
+  height: 689px;
+}
+.kitchenWitchPreviewRev11 {
+  position: absolute;
+  top: 42.3px;
+  left: 27.1px;
+  width: 149.7px;
+  height: 145.5px;
+  object-fit: cover;
+  z-index: 1;
+}
+.vectorGroup {
+  position: absolute;
+  top: 518px;
+  left: 388px;
+  width: 210.4px;
+  height: 243.7px;
+  cursor: pointer;
+  z-index: 1;
+}
+.heroContent {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.shadowRoguePreviewRev12 {
+  position: absolute;
+  height: 64.91%;
+  width: 54.49%;
+  top: 0;
+  right: 45.51%;
+  bottom: 35.09%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.heroContentParent {
+  position: absolute;
+  top: 169px;
+  left: 35px;
+  width: 256px;
+  height: 165px;
+  z-index: 1;
+}
+.emptyRect {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.inventorPreviewRev11Icon {
+  position: absolute;
+  height: 59.42%;
+  width: 48.46%;
+  top: 0;
+  right: 51.54%;
+  bottom: 40.58%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.emptyRectParent {
+  position: absolute;
+  top: 357px;
+  left: 338px;
+  width: 260px;
+  height: 172px;
+  z-index: 2;
+}
+.heroContent1 {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.berserkerBeetlePreviewRev1Icon {
+  position: absolute;
+  height: 61.57%;
+  width: 40.17%;
+  top: 0;
+  right: 59.83%;
+  bottom: 38.43%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.heroContentGroup {
+  position: absolute;
+  top: 560px;
+  left: 52px;
+  width: 241px;
+  height: 166px;
+  z-index: 1;
+}
+.heroContent2 {
+  position: absolute;
+  top: 9px;
+  left: 17px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 241px;
+  height: 155px;
+}
+.magePreviewRev12Icon {
+  position: absolute;
+  height: 68.29%;
+  width: 53.64%;
+  top: 0;
+  right: 46.36%;
+  bottom: 31.71%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.heroContentContainer {
+  position: absolute;
+  top: 365px;
+  left: 35px;
+  width: 258px;
+  height: 164px;
+  z-index: 1;
+}
+.rectangleDiv,
+.rectangleWrapper {
+  position: absolute;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.rectangleWrapper {
+  top: 22px;
+  width: 241px;
+  height: 155px;
+}
+.magicArcherPreviewRev11 {
+  position: absolute;
+  height: 70.23%;
+  width: 46.22%;
+  top: 0;
+  right: 53.78%;
+  bottom: 29.77%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameParent {
+  position: absolute;
+  top: 157px;
+  left: 357px;
+  width: 241px;
+  height: 177px;
+  z-index: 1;
+}
+.crownRedSealWaxStampHdPn1 {
+  position: absolute;
+  top: 0;
+  left: 207px;
+  width: 194px;
+  height: 179px;
+  object-fit: cover;
+  z-index: 2;
+}
+.classPreviews {
+  height: 762px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.classPreviewsWrapper,
+.images {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.classPreviewsWrapper {
+  flex: 1;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 408px;
+  z-index: 3;
+}
+.images {
+  width: 1286px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: 32px;
+}
+.completionStatusChild {
+  height: 68px;
+  width: 172px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-olivedrab-100);
+  display: none;
+}
+.done {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  min-width: 104px;
+  z-index: 3;
+}
+.classPreview,
+.completionStatus,
+.footer,
+.minion {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.completionStatus {
+  flex: 1;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-olivedrab-100);
+  flex-direction: row;
+  padding: var(--padding-xs) 33px var(--padding-xs) var(--padding-16xl);
+  z-index: 2;
+}
+.classPreview,
+.footer,
+.minion {
+  box-sizing: border-box;
+}
+.footer {
+  flex-direction: row;
+  padding: 0 541px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.classPreview,
+.minion {
+  position: relative;
+  flex-direction: column;
+}
+.classPreview {
+  width: 1392.4px;
+  padding: var(--padding-8xs) var(--padding-25xl) 32.2px;
+  gap: 60px;
+  max-width: 100%;
+  margin-top: -54px;
+}
+.minion {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-16xl) 16px 22.8px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .structure {
+    padding-left: var(--padding-244xl);
+    padding-right: var(--padding-244xl);
+    box-sizing: border-box;
+  }
+  .classPreview,
+  .footer {
+    padding-left: var(--padding-251xl);
+    padding-right: var(--padding-251xl);
+    box-sizing: border-box;
+  }
+  .classPreview {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .done,
+  .minion1 {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .structure {
+    padding-left: var(--padding-112xl);
+    padding-right: var(--padding-112xl);
+    box-sizing: border-box;
+  }
+  .classPreviewsWrapper,
+  .fighters {
+    min-width: 100%;
+  }
+  .images {
+    gap: 16px;
+  }
+  .footer {
+    padding-left: var(--padding-116xl);
+    padding-right: var(--padding-116xl);
+    box-sizing: border-box;
+  }
+  .classPreview {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .minion1 {
+    font-size: var(--font-size-3xl);
+  }
+  .rectangleParent,
+  .structure {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .done {
+    font-size: var(--font-size-3xl);
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
