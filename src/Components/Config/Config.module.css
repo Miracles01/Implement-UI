@@ -193,14 +193,14 @@
   box-sizing: border-box;
   width: 279px;
   height: 70px;
-  transition: box-shadow 0.3s ease-in-out; /* เพิ่ม transition ให้กับแสง */
+  transition: transform 0.3s ease-in-out; /* เพิ่ม transition สำหรับการขยายขนาด */
 }
 
 /* เมื่อเอาเมาส์ไปชี้ที่กล่อง .groupChild */
 .groupChild:hover {
-  box-shadow: 0 0 20px rgba(0, 255, 0, 1), /* สีเขียวเรืองแสง */
-              0 0 30px rgba(255, 255, 255, 0.8); /* สีขาวเรืองแสง */
+  transform: scale(1.1); /* ขยายขนาดกล่องให้มากขึ้นเมื่อ hover */
 }
+
 
 .done {
   position: absolute;

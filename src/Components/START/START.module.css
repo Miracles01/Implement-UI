@@ -161,7 +161,16 @@ body {
 .confix,
 .play {
   transform: rotate(1deg);
+  transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงที่นุ่มนวล */
 }
+
+/* เพิ่มการขยายขนาดเมื่อเม้าส์ชี้ไปที่ .confix และ .play */
+.confix:hover,
+.play:hover {
+  transform: rotate(1deg) scale(1.1); /* ขยายขนาดปุ่ม 10% เมื่อ hover */
+  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อ hover */
+}
+
 .confix {
   width: 369px;
   position: absolute;
@@ -172,10 +181,17 @@ body {
   transform-origin: 0 0;
   cursor: pointer;
 }
+
 .play {
   position: relative;
-  text-shadow: 1px 0 0#3e3e36, 0 1px 0#3e3e36, -1px 0 0#3e3e36, 0-1px 0#3e3e36;
+  text-shadow: 1px 0 0 #3e3e36, 0 1px 0 #3e3e36, -1px 0 0 #3e3e36, 0 -1px 0 #3e3e36;
+  transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงอย่างนุ่มนวล */
 }
+
+.play:hover {
+  transform: scale(1.1); /* ขยายปุ่มเมื่อ hover */
+}
+
 .playExit {
   display: flex;
   flex-direction: row;
@@ -183,17 +199,49 @@ body {
   justify-content: flex-start;
   padding: var(--padding-3xs) 9px var(--padding-3xs) var(--padding-3xs);
   cursor: pointer;
+  transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงอย่างนุ่มนวล */
 }
+
+.playExit:hover {
+  transform: scale(1.1); /* ขยายปุ่มเมื่อ hover */
+}
+
 .exit1 {
   flex: 1;
   position: relative;
   transform: rotate(1deg);
+  transition: transform 0.3s ease; /* เพิ่ม transition ให้การเปลี่ยนแปลงเป็นไปอย่างนุ่มนวล */
 }
+
+.exit1:hover {
+  animation: shake 0.5s ease infinite; /* เพิ่มการกระดุกกระดิกเมื่อ hover */
+}
+
+/* กำหนด keyframes สำหรับการกระดุกกระดิก */
+@keyframes shake {
+  0% {
+    transform: rotate(1deg) translateX(0); /* เริ่มต้นที่ตำแหน่งเดิม */
+  }
+  25% {
+    transform: rotate(-5deg) translateX(-5px); /* ขยับไปทางซ้าย */
+  }
+  50% {
+    transform: rotate(5deg) translateX(5px); /* ขยับไปทางขวา */
+  }
+  75% {
+    transform: rotate(-5deg) translateX(-5px); /* ขยับไปทางซ้าย */
+  }
+  100% {
+    transform: rotate(1deg) translateX(0); /* กลับสู่ตำแหน่งเดิม */
+  }
+}
+
 .exit {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 var(--padding-4xl);
 }
+
 .confixParent,
 .exit,
 .menuOptions {
