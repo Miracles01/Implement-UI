@@ -33,7 +33,7 @@ const START: FunctionComponent = () => {
             className={styles.navigationIcon}
             loading="lazy"
             alt="Navigation Icon"
-            src="src/public/START/Vector.png"
+            src="src\public\START\Vector.png"
           />
         </div>
         <div className={styles.confixParent}>
