@@ -1,175 +1,101 @@
-import { FunctionComponent, useCallback } from "react";
-import styles from "./MINION.module.css";
+import { FunctionComponent, useState, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
+import styles from "./MINION.module.css"; 
 import React from "react";
 
 const MINION: FunctionComponent = () => {
-  const onGroupContainerClick = useCallback(() => {
-    // Please sync "Victree" to the project
-  }, []);
+  const navigate = useNavigate();
+  const [isPopupOpen, setPopupOpen] = useState(false); // ฟังก์ชันควบคุมเปิดปิด popup
 
-  const onGroupContainerClick1 = useCallback(() => {
-    // Please sync "Defeat" to the project
+  // ฟังก์ชันเปิด popup
+  const openPopup = () => setPopupOpen(true);
+
+  // ฟังก์ชันปิด popup
+  const closePopup = () => setPopupOpen(false);
+
+  // ฟังก์ชันสำหรับการคลิกที่ vectorIcon และนำทางไปยังหน้า Configwfh
+  const handleVectorClick = () => {
+    navigate("/Config");  // เปลี่ยนเส้นทางไปหน้า Config
+  };
+
+  const onGroupContainerClick = useCallback(() => {
+    navigate("/join");
+  }, [navigate]);
+
+  const onRectangleClick = useCallback(() => {
+    // Logic สำหรับการคลิก REBUILD (อาจจะเพิ่ม logic การรีเซ็ตหรืออื่นๆ)
   }, []);
 
   return (
     <div className={styles.minion}>
-      <img className={styles.config111} alt="" src="public\minion\config-1-1-1@2x.png" />
-      <div className={styles.structure}>
-        <div className={styles.rectangleParent}>
-          <div className={styles.frameChild} />
-          <a className={styles.minion1}>MINION</a>
-        </div>
+      <img className={styles.config113} alt="" src="/config-1-1-3@2x.png" />
+      <div className={styles.minionChild} />
+      <div className={styles.rectangleParent}>
+        <div className={styles.groupChild} />
+        <div className={styles.minion1}>MINION</div>
       </div>
-      <main className={styles.classPreview}>
-        <section className={styles.boundingRect} />
-        <section className={styles.images}>
-          <div className={styles.fighters}>
-            <div className={styles.fightersInner}>
-              <div className={styles.previewBackgroundParent}>
-                <div className={styles.previewBackground} />
-                <div
-                  className={styles.vectorParent}
-                  onClick={onGroupContainerClick}
-                >
-                  <img className={styles.vectorIcon} alt="" src="public\minion\vector.svg" />
-                  <img
-                    className={styles.previewRev11Icon}
-                    loading="lazy"
-                    alt=""
-                    src="public\minion\-2-preview-rev-1-1@2x.png"
-                  />
-                </div>
-                <div className={styles.rectangleGroup}>
-                  <div className={styles.frameItem} />
-                  <img
-                    className={styles.crystalFighterPreviewRev1}
-                    loading="lazy"
-                    alt=""
-                    src="public\minion\crystal-fighter-preview-rev-1-1@2x.png"
-                  />
-                </div>
-                <div className={styles.rectangleContainer}>
-                  <div className={styles.frameInner} />
-                  <img
-                    className={styles.restlessSpiritPreviewRev1}
-                    loading="lazy"
-                    alt=""
-                    src="public\minion\restless-spirit-preview-rev-1-2@2x.png"
-                  />
-                </div>
-                <div className={styles.heroTopParent}>
-                  <div className={styles.heroTop} />
-                  <img
-                    className={styles.chronomancerPreviewRev11Icon}
-                    loading="lazy"
-                    alt=""
-                    src="public\minion\chronomancer-preview-rev-1-1@2x.png"
-                  />
-                </div>
-                <div className={styles.thiefRectParent}>
-                  <div className={styles.thiefRect} />
-                  <img
-                    className={styles.humanThiefPreviewRev11}
-                    loading="lazy"
-                    alt=""
-                    src="public\minion\human-thief-preview-rev-1-1@2x.png"
-                  />
-                </div>
-                <div className={styles.vikingRectParent}>
-                  <div className={styles.vikingRect} />
-                  <img
-                    className={styles.vikingPreviewRev12Icon}
-                    loading="lazy"
-                    alt=""
-                    src="public\minion\viking-preview-rev-1-2@2x.png"
-                  />
-                </div>
-                <img
-                  className={styles.crownRedSealWaxStampHdPn}
-                  loading="lazy"
-                  alt=""
-                  src="public\minion\crown-red-seal-wax-stamp-hd-png-preview-rev-1-2@2x.png"
-                />
-              </div>
-            </div>
-          </div>
-          <div className={styles.classPreviewsWrapper}>
-            <div className={styles.classPreviews}>
-              <div className={styles.classBackground} />
-              <div
-                className={styles.vectorGroup}
-                onClick={onGroupContainerClick1}
-              >
-                <img className={styles.vectorIcon} alt="" src="public\minion\vector-1.svg" />
-                <img
-                  className={styles.kitchenWitchPreviewRev11}
-                  loading="lazy"
-                  alt=""
-                  src="public\minion\kitchen-witch-preview-rev-1-1@2x.png"
-                />
-              </div>
-              <div className={styles.heroContentParent}>
-                <div className={styles.heroContent} />
-                <img
-                  className={styles.shadowRoguePreviewRev12}
-                  loading="lazy"
-                  alt=""
-                  src="public\minion\shadow-rogue-preview-rev-1-2@2x.png"
-                />
-              </div>
-              <div className={styles.emptyRectParent}>
-                <div className={styles.emptyRect} />
-                <img
-                  className={styles.inventorPreviewRev11Icon}
-                  loading="lazy"
-                  alt=""
-                  src="public\minion\inventor-preview-rev-1-1@2x.png"
-                />
-              </div>
-              <div className={styles.heroContentGroup}>
-                <div className={styles.heroContent1} />
-                <img
-                  className={styles.berserkerBeetlePreviewRev1Icon}
-                  loading="lazy"
-                  alt=""
-                  src="public\minion\berserker-beetle-preview-rev-1-2@2x.png"
-                />
-              </div>
-              <div className={styles.heroContentContainer}>
-                <div className={styles.heroContent2} />
-                <img
-                  className={styles.magePreviewRev12Icon}
-                  loading="lazy"
-                  alt=""
-                  src="public\minion\mage-preview-rev-1-2@2x.png"
-                />
-              </div>
-              <div className={styles.frameParent}>
-                <div className={styles.rectangleWrapper}>
-                  <div className={styles.rectangleDiv} />
-                </div>
-                <img
-                  className={styles.magicArcherPreviewRev11}
-                  loading="lazy"
-                  alt=""
-                  src="public\minion\magic-archer-preview-rev-1-1@2x.png"
-                />
-              </div>
-              <img
-                className={styles.crownRedSealWaxStampHdPn1}
-                alt=""
-                src="/public\minion\crown-red-seal-wax-stamp-hd-png-preview-rev-1-2@2x.png"
+      <div className={styles.rectangleGroup} onClick={onGroupContainerClick}>
+        <div className={styles.groupItem} />
+        <div className={styles.done}>DONE</div>
+      </div>
+
+      {/* รูปภาพ Vector ที่สามารถคลิกแล้วขยายตัว */}
+      <img 
+        className={`${styles.vectorIcon}`} 
+        alt="" 
+        src="public/Vector Back.png" 
+        onClick={handleVectorClick} // เมื่อคลิกที่รูปจะนำทางไปหน้า Configwfh
+      />
+
+      {/* ข้อมูลการ์ด */}
+      <img className={styles.cart3i1Icon} alt="" src="/cart3i-1@2x.png" />
+      <div className={styles.grimrik}>Grimrik</div>
+      <div className={styles.div}>50</div>
+      <div className={styles.rectangleContainer}>
+        <div className={styles.groupInner} onClick={onRectangleClick} />
+        <div className={styles.rebuild} onClick={openPopup}>REBUILD</div> {/* เปิด popup */}
+      </div>
+      <img className={styles.cart1i1Icon} alt="" src="/cart1i-1@2x.png" />
+      <img className={styles.cart2i1Icon} alt="" src="/cart2i-1@2x.png" />
+      <div className={styles.selene}>Selene</div>
+      <div className={styles.veyron}>Veyron</div>
+      <div className={styles.div1}>50</div>
+      <div className={styles.div2}>50</div>
+      <div className={styles.groupDiv}>
+        <div className={styles.groupInner} onClick={onRectangleClick} />
+        <div className={styles.rebuild} onClick={openPopup}>REBUILD</div>
+      </div>
+      <div className={styles.rectangleParent1}>
+        <div className={styles.groupInner} onClick={onRectangleClick} />
+        <div className={styles.rebuild} onClick={openPopup}>REBUILD</div>
+      </div>
+
+      {/* Popup */}
+      {isPopupOpen && (
+        <div className={styles.popup}>
+          <div className={styles.popupContent}>
+            <h2>Edit Information</h2>
+            <label>
+              NAME:
+              <input type="text" placeholder="Enter Input" />
+            </label>
+            <label>
+              Defent:
+              <input type="text" placeholder="Enter Input" />
+            </label>
+            <label>
+              Strategy:
+              <input 
+                type="text" 
+                placeholder="Enter Input" 
+                className={styles.strategyInput} 
               />
-            </div>
+            </label>
+
+            <button onClick={closePopup}>DONE</button> {/* ปุ่ม DONE */}
           </div>
-        </section>
-        <footer className={styles.footer}>
-          <div className={styles.completionStatus}>
-            <div className={styles.completionStatusChild} />
-            <div className={styles.done}>DONE</div>
-          </div>
-        </footer>
-      </main>
+        </div>
+      )}
     </div>
   );
 };

@@ -292,5 +292,17 @@ body {
   height: 45.3px;
   text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
 }
+.vectorIcon {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  width: 122px;
+  height: 87px;
+  z-index: 2;
+  transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงอย่างนุ่มนวล */
+}
 
-
+.vectorIcon:hover {
+  transform: scale(1.2); /* ขยายขนาดรูปภาพเมื่อ hover */
+  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อ hover */
+}

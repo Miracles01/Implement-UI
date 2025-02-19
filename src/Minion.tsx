@@ -1,9 +1,10 @@
-import {Victree} from'./Components'
+import React from 'react'
+import {MINION} from'./Components'
 
 function victree() {
   return (
     <div>
-        <Victree/>
+        <MINION/>
     </div>
   )
 }

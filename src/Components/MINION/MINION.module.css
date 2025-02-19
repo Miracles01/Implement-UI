@@ -1,674 +1,300 @@
-.config111 {
-  width: 100%;
-  height: 100%;
+.config113 {
   position: absolute;
-  margin: 0 !important;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
+  width: 100%; /* ขนาดกว้าง 1440px */
+  height: 1024px; /* ขนาดสูง 1024px */
+  object-fit: cover; /* ครอบคลุมพื้นที่ โดยไม่ผิดสัดส่วน */
 }
-.frameChild {
-  height: 80px;
-  width: 289px;
-  position: relative;
+
+.minionChild {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-yellowgreen-100);
+  width: 1480px;
+  height: 966px;
+}
+.groupChild {
+  position: absolute;
+  top: 0px;
+  left: 25px;
   border-radius: var(--br-81xl);
   background-color: var(--color-olivedrab-100);
   border: 2px solid var(--color-black);
   box-sizing: border-box;
-  display: none;
+  width: 437px;
+  height: 92px;
 }
 .minion1 {
-  text-decoration: none;
-  flex: 1;
-  position: relative;
-  color: inherit;
-  z-index: 1;
-}
-.rectangleParent,
-.structure {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
+  position: absolute;
+  top: 20.7px;
+  left: 140px;
+  display: inline-block;
+  width: 201.1px;
+  height: 50.6px;
 }
 .rectangleParent {
-  height: 80px;
-  flex: 1;
+  position: absolute;
+  top: 60px;
+  left: 513px;
+  width: 437px;
+  height: 92px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+}
+.groupItem {
+  position: absolute;
+  top: 0px;
+  left: 40px;
   border-radius: var(--br-81xl);
   background-color: var(--color-olivedrab-100);
-  border: 2px solid var(--color-black);
-  padding: var(--padding-mini) var(--padding-58xl) var(--padding-mini) 78px;
-  z-index: 2;
+  width: 279px;
+  height: 70px;
 }
-.structure {
-  padding: 0 526px;
-  max-width: 100%;
-}
-.boundingRect {
-  width: 100%;
-  height: 100%;
+.done {
   position: absolute;
-  margin: 0 !important;
-  top: 0.97px;
-  right: 0.7px;
-  bottom: 0.13px;
-  left: 0;
-  border-radius: var(--br-xl);
-  background-color: var(--color-yellowgreen);
-  z-index: 1;
-}
-.previewBackground {
-  position: absolute;
-  top: 84px;
-  left: 0;
-  background-color: #e77c76;
-  width: 627px;
-  height: 689px;
-}
-.previewRev11Icon,
-.vectorIcon {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: contain;
-}
-.previewRev11Icon {
-  height: 72.21%;
-  width: 67.89%;
-  top: 9.98%;
-  right: 23.99%;
-  bottom: 17.81%;
-  left: 8.12%;
-  object-fit: cover;
-  z-index: 1;
-}
-.vectorParent {
-  position: absolute;
-  top: 535px;
-  left: 362px;
-  width: 220.5px;
-  height: 237.5px;
-  cursor: pointer;
-  z-index: 1;
-}
-.frameItem {
-  position: absolute;
-  top: 14px;
-  left: 22px;
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
-}
-.crystalFighterPreviewRev1 {
-  position: absolute;
-  height: 66.27%;
-  width: 41.06%;
-  top: 0;
-  right: 58.94%;
-  bottom: 33.73%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 1;
+  top: 12.4px;
+  left: 92px;
+  display: inline-block;
+  width: 165.5px;
+  height: 45.3px;
 }
 .rectangleGroup {
   position: absolute;
-  top: 559px;
-  left: 20px;
-  width: 263px;
-  height: 169px;
-  z-index: 1;
+  top: 859px;
+  left: 577px;
+  width: 279px;
+  height: 70px;
+  cursor: pointer;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
 }
-.frameInner {
+.vectorIcon {
   position: absolute;
-  top: 24px;
-  left: 22px;
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
-}
-.restlessSpiritPreviewRev1 {
-  position: absolute;
-  height: 70.84%;
-  width: 51.75%;
-  top: 0;
-  right: 48.25%;
-  bottom: 29.16%;
-  left: 0;
+  height: 8.5%;
+  width: 8.47%;
+  top: 4.69%;
+  right: 86.6%;
+  bottom: 86.82%;
+  left: 4.93%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
+  transition: transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงอย่างนุ่มนวล */
+}
+
+.vectorIcon:hover {
+  transform: scale(1.2); /* ขยายขนาดรูปภาพเมื่อ hover */
+  cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็นมือเมื่อ hover */
+}
+
+
+.cart3i1Icon {
+  position: absolute;
+  top: 243px;
+  left: 1100px;
+  width: 331px;
+  height: 503px;
   object-fit: cover;
-  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* การเคลื่อนไหวของการเปลี่ยนแสงและขนาด */
+}
+
+/* เมื่อ hover ที่การ์ด cart3i1Icon */
+.cart3i1Icon:hover {
+  transform: translateY(-10px); /* เด้งขึ้นเล็กน้อย */
+  /* ออร่าไฟสีส้ม box-shadow: 0 0 15px rgba(161, 70, 235, 0.8), 0 0 25px rgba(133, 3, 165, 0.8);*/
+}
+
+.grimrik {
+  position: absolute;
+  top: 251px;
+  left: 1085px;
+  display: inline-block;
+  width: 157px;
+  height: 31px;
+}
+.div {
+  position: absolute;
+  top: 255px;
+  left: 1393px;
+  font-size: var(--font-size-6xl);
+}
+.groupInner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 228px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.groupInner:hover{
+  background-color: #c8cfd5;
+  color: #fff;
+
+
+}
+.rebuild {
+  position: absolute;
+  top: 13px;
+  left: 58px;
 }
 .rectangleContainer {
   position: absolute;
-  top: 368px;
-  left: 314px;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
-  width: 263px;
-  height: 179px;
-  z-index: 2;
+  top: 669px;
+  left: 1150px;
+  width: 228px;
+  height: 60px;
+  font-size: var(--font-size-9xl);
 }
-.heroTop {
+.cart1i1Icon {
   position: absolute;
-  top: 24px;
-  left: 20px;
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
-}
-.chronomancerPreviewRev11Icon {
-  position: absolute;
-  height: 81.12%;
-  width: 54.75%;
-  top: 0;
-  right: 45.25%;
-  bottom: 18.88%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  top: 243px;
+  left: 91px;
+  width: 331px;
+  height: 503px;
   object-fit: cover;
-  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* การเคลื่อนไหวของการเปลี่ยนแสงและขนาด */
 }
-.heroTopParent {
-  position: absolute;
-  top: 368px;
-  left: 22px;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
-  width: 261px;
-  height: 179px;
-  z-index: 1;
+
+.cart1i1Icon:hover {
+  transform: translateY(-10px); /* เด้งขึ้นเล็กน้อย */
+   /* แสงแบบสุ่ม box-shadow: 0 0 15px rgba(161, 70, 235, 0.8), 0 0 25px rgba(133, 3, 165, 0.8);*/
 }
-.thiefRect {
+
+
+.cart2i1Icon {
   position: absolute;
-  top: 10px;
-  left: 31px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
-}
-.humanThiefPreviewRev11 {
-  position: absolute;
-  height: 74.61%;
-  width: 55.85%;
-  top: 0;
-  right: 44.15%;
-  bottom: 25.39%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
+  top: 243px;
+  left: 595px;
+  width: 331px;
+  height: 503px;
   object-fit: cover;
-  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* การเคลื่อนไหวของการเปลี่ยนแสงและขนาด */
 }
-.thiefRectParent {
+
+/* เมื่อ hover ที่การ์ด cart2i1Icon */
+.cart2i1Icon:hover {
+  transform: translateY(-10px); /* เด้งขึ้นเล็กน้อย */
+ /* ออร่าไฟสีแดงbox-shadow: 0 0 15px rgba(161, 70, 235, 0.8), 0 0 25px rgba(133, 3, 165, 0.8); */
+}
+
+.selene {
   position: absolute;
-  top: 199px;
-  left: 305px;
-  width: 272px;
-  height: 165px;
-  z-index: 1;
+  top: 252px;
+  left: 610px;
 }
-.vikingRect {
+.veyron {
   position: absolute;
-  top: 18px;
-  left: 35px;
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
+  top: 246px;
+  left: 109px;
 }
-.vikingPreviewRev12Icon {
+.div1 {
   position: absolute;
-  height: 66.88%;
-  width: 46.05%;
-  top: 0;
-  right: 53.95%;
-  bottom: 33.12%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 1;
+  top: 255px;
+  left: 875px;
+  font-size: var(--font-size-6xl);
 }
-.crownRedSealWaxStampHdPn,
-.vikingRectParent {
+.div2 {
   position: absolute;
-  top: 191px;
-  left: 7px;
-  width: 276px;
-  height: 173px;
-  z-index: 1;
+  top: 260px;
+  left: 365px;
+  font-size: var(--font-size-6xl);
 }
-.crownRedSealWaxStampHdPn {
-  top: 0;
-  left: 217px;
-  width: 194px;
-  height: 179px;
-  object-fit: cover;
+.groupDiv {
+  position: absolute;
+  top: 669px;
+  left: 647px;
+  width: 228px;
+  height: 60px;
+  font-size: var(--font-size-9xl);
 }
-.previewBackgroundParent {
-  height: 773px;
-  flex: 1;
+.rectangleParent1 {
+  position: absolute;
+  top: 669px;
+  left: 137px;
+  width: 228px;
+  height: 60px;
+  font-size: var(--font-size-9xl);
+}
+.minion {
+  width: 100%;
   position: relative;
-  max-width: 100%;
-}
-.fighters,
-.fightersInner {
-  display: flex;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.fightersInner {
-  align-self: stretch;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
-  flex-direction: row;
-  justify-content: flex-start;
-  z-index: 3;
-}
-.fighters {
-  flex: 1;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 0 0 2px;
-  box-sizing: border-box;
-  min-width: 408px;
-}
-.classBackground {
-  position: absolute;
-  top: 73px;
-  left: 0;
-  background-color: #22823c;
-  width: 627px;
-  height: 689px;
-}
-.kitchenWitchPreviewRev11 {
-  position: absolute;
-  top: 42.3px;
-  left: 27.1px;
-  width: 149.7px;
-  height: 145.5px;
-  object-fit: cover;
-  z-index: 1;
-}
-.vectorGroup {
-  position: absolute;
-  top: 518px;
-  left: 388px;
-  width: 210.4px;
-  height: 243.7px;
-  cursor: pointer;
-  z-index: 1;
-}
-.heroContent {
-  position: absolute;
-  top: 10px;
-  left: 15px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
-}
-.shadowRoguePreviewRev12 {
-  position: absolute;
-  height: 64.91%;
-  width: 54.49%;
-  top: 0;
-  right: 45.51%;
-  bottom: 35.09%;
-  left: 0;
-  max-width: 100%;
+  background-color: var(--color-white);
+  height: 1024px;
   overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-itim);
 }
-.heroContentParent {
-  position: absolute;
-  top: 169px;
-  left: 35px;
-  width: 256px;
-  height: 165px;
-  z-index: 1;
-}
-.emptyRect {
-  position: absolute;
-  top: 17px;
-  left: 19px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
-}
-.inventorPreviewRev11Icon {
-  position: absolute;
-  height: 59.42%;
-  width: 48.46%;
-  top: 0;
-  right: 51.54%;
-  bottom: 40.58%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-.emptyRectParent {
-  position: absolute;
-  top: 357px;
-  left: 338px;
-  width: 260px;
-  height: 172px;
-  z-index: 2;
-}
-.heroContent1 {
-  position: absolute;
-  top: 11px;
-  left: 0;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
-}
-.berserkerBeetlePreviewRev1Icon {
-  position: absolute;
-  height: 61.57%;
-  width: 40.17%;
-  top: 0;
-  right: 59.83%;
-  bottom: 38.43%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-.heroContentGroup {
-  position: absolute;
-  top: 560px;
-  left: 52px;
-  width: 241px;
-  height: 166px;
-  z-index: 1;
-}
-.heroContent2 {
-  position: absolute;
-  top: 9px;
-  left: 17px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 241px;
-  height: 155px;
-}
-.magePreviewRev12Icon {
-  position: absolute;
-  height: 68.29%;
-  width: 53.64%;
-  top: 0;
-  right: 46.36%;
-  bottom: 31.71%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-.heroContentContainer {
-  position: absolute;
-  top: 365px;
-  left: 35px;
-  width: 258px;
-  height: 164px;
-  z-index: 1;
-}
-.rectangleDiv,
-.rectangleWrapper {
-  position: absolute;
-  left: 0;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: var(--color-gainsboro);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-}
-.rectangleDiv {
-  top: 0;
+
+/* Popup styles */
+.popup {
+  background-color: rgba(0, 0, 0, 0.5); /* สีพื้นหลังเป็นสีดำอ่อน */
   width: 100%;
   height: 100%;
-  display: none;
-}
-.rectangleWrapper {
-  top: 22px;
-  width: 241px;
-  height: 155px;
-}
-.magicArcherPreviewRev11 {
-  position: absolute;
-  height: 70.23%;
-  width: 46.22%;
-  top: 0;
-  right: 53.78%;
-  bottom: 29.77%;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-.frameParent {
-  position: absolute;
-  top: 157px;
-  left: 357px;
-  width: 241px;
-  height: 177px;
-  z-index: 1;
-}
-.crownRedSealWaxStampHdPn1 {
   position: absolute;
   top: 0;
-  left: 207px;
-  width: 194px;
-  height: 179px;
-  object-fit: cover;
-  z-index: 2;
-}
-.classPreviews {
-  height: 762px;
-  flex: 1;
-  position: relative;
-  max-width: 100%;
-}
-.classPreviewsWrapper,
-.images {
   display: flex;
-  flex-direction: row;
-  max-width: 100%;
-}
-.classPreviewsWrapper {
-  flex: 1;
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
-  align-items: flex-start;
-  justify-content: flex-start;
-  min-width: 408px;
-  z-index: 3;
-}
-.images {
-  width: 1286px;
-  align-items: flex-end;
   justify-content: center;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  gap: 32px;
+  align-items: center;
+  z-index: 1000; /* ทำให้ popup อยู่เหนือทุกอย่าง */
 }
-.completionStatusChild {
-  height: 68px;
-  width: 172px;
+
+.popupContent {
+  height: 400px;
+  width: 550px;
+  background-color: #fff; /* สีพื้นหลังของเนื้อหาภายใน popup */
+  padding: 20px;
+  border-radius: 5px;
   position: relative;
-  border-radius: var(--br-81xl);
-  background-color: var(--color-olivedrab-100);
-  display: none;
 }
-.done {
-  flex: 1;
-  position: relative;
-  display: inline-block;
-  min-width: 104px;
-  z-index: 3;
+
+.popupContent h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
-.classPreview,
-.completionStatus,
-.footer,
-.minion {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+
+.popupContent label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1rem;
 }
-.completionStatus {
-  flex: 1;
-  border-radius: var(--br-81xl);
-  background-color: var(--color-olivedrab-100);
-  flex-direction: row;
-  padding: var(--padding-xs) 33px var(--padding-xs) var(--padding-16xl);
-  z-index: 2;
+
+.popupContent input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
 }
-.classPreview,
-.footer,
-.minion {
-  box-sizing: border-box;
+
+.popupContent button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: #4f8901;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
 }
-.footer {
-  flex-direction: row;
-  padding: 0 541px;
-  max-width: 100%;
-  text-align: center;
-  font-size: var(--font-size-17xl);
-  color: var(--color-white);
-  font-family: var(--font-inter);
+
+.popupContent button:hover {
+  background-color: #417b03;
 }
-.classPreview,
-.minion {
-  position: relative;
-  flex-direction: column;
-}
-.classPreview {
-  width: 1392.4px;
-  padding: var(--padding-8xs) var(--padding-25xl) 32.2px;
-  gap: 60px;
-  max-width: 100%;
-  margin-top: -54px;
-}
-.minion {
-  width: 100%;
-  background-color: var(--color-white);
-  overflow: hidden;
-  padding: var(--padding-16xl) 16px 22.8px;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  font-size: var(--font-size-17xl);
-  color: var(--color-gray);
-  font-family: var(--font-inter);
-}
-@media screen and (max-width: 1200px) {
-  .structure {
-    padding-left: var(--padding-244xl);
-    padding-right: var(--padding-244xl);
-    box-sizing: border-box;
-  }
-  .classPreview,
-  .footer {
-    padding-left: var(--padding-251xl);
-    padding-right: var(--padding-251xl);
-    box-sizing: border-box;
-  }
-  .classPreview {
-    padding-left: var(--padding-3xl);
-    padding-right: var(--padding-3xl);
-  }
-}
-@media screen and (max-width: 1050px) {
-  .done,
-  .minion1 {
-    font-size: var(--font-size-10xl);
-  }
-}
-@media screen and (max-width: 750px) {
-  .structure {
-    padding-left: var(--padding-112xl);
-    padding-right: var(--padding-112xl);
-    box-sizing: border-box;
-  }
-  .classPreviewsWrapper,
-  .fighters {
-    min-width: 100%;
-  }
-  .images {
-    gap: 16px;
-  }
-  .footer {
-    padding-left: var(--padding-116xl);
-    padding-right: var(--padding-116xl);
-    box-sizing: border-box;
-  }
-  .classPreview {
-    gap: var(--gap-11xl);
-  }
-}
-@media screen and (max-width: 450px) {
-  .minion1 {
-    font-size: var(--font-size-3xl);
-  }
-  .rectangleParent,
-  .structure {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .done {
-    font-size: var(--font-size-3xl);
-  }
-  .footer {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
+
+/* ถ้าต้องการปรับเฉพาะช่อง Strategy */
+.popupContent .strategyInput {
+  width: 80%; /* ช่อง input ขยายเต็มความกว้างของ container */
+  padding: 40px; /* ทำให้ช่องกรอกข้อมูลใหญ่ขึ้น */
+  font-size: 1rem; /* ขยายขนาดตัวอักษร */
 }
