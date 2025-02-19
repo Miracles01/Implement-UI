@@ -1,8 +1,13 @@
 import { FunctionComponent, useState, useCallback, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // นำเข้า useNavigate
 import styles from "./Config.module.css";
 import React from "react";
 
 const Config: FunctionComponent = () => {
+  const navigate = useNavigate(); // สร้างฟังก์ชัน navigate
+  const goBackToStart = () => {
+    navigate("/"); // นำทางไปที่หน้า START
+  };
   // กำหนดค่าเริ่มต้นของ state จากค่าใน localStorage หรือค่าเริ่มต้น
   const [inputs, setInputs] = useState({
     interestRate: localStorage.getItem("interestRate") || "",
@@ -26,7 +31,8 @@ const Config: FunctionComponent = () => {
 
   const onGroupContainerClick = useCallback(() => {
     console.log("Configuration Saved:", inputs);
-  }, [inputs]);
+    navigate("/MINION"); // ไปยังหน้า MINION เมื่อคลิก DONE
+  }, [inputs, navigate]);
 
   useEffect(() => {
     // ฟังก์ชันนี้จะทำการบันทึกค่าใน localStorage เมื่อหน้าโหลด
@@ -35,7 +41,7 @@ const Config: FunctionComponent = () => {
         localStorage.setItem(key, value);
       }
     });
-  }, []);
+  }, [inputs]);
 
   return (
     <div className={styles.config}>
@@ -66,12 +72,18 @@ const Config: FunctionComponent = () => {
           </div>
         ))}
       </div>
-
+      <img
+        className={styles.vectorIcon}
+        alt="Back"
+        src="public/Vector Back.png"
+        onClick={goBackToStart} // เมื่อคลิก จะกลับไปหน้า START
+      />
       <div className={styles.rectangleParent} onClick={onGroupContainerClick}>
         <div className={styles.groupChild} />
         <div className={styles.done}>DONE</div>
       </div>
     </div>
+    
   );
 };
 
