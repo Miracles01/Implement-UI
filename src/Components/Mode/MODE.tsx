@@ -5,9 +5,9 @@ import React from "react";
 const MODE = () => {
   const navigate = useNavigate();
 
-  // ฟังก์ชันนำทางกลับไปหน้า START
-  const goBackToStart = () => {
-    navigate("/"); // นำทางไปที่หน้า START
+  // ฟังก์ชันนำทางไปยังหน้า Config
+  const goToConfig = () => {
+    navigate("/Config");  // นำทางไปที่หน้า Config
   };
 
   return (
@@ -20,15 +20,29 @@ const MODE = () => {
       <div className={styles.modeChild} />
       <div className={styles.modeItem} />
       <div className={styles.modeInner} />
-      <div className={styles.pvp}>PVP</div>
-      <div className={styles.pve}>PVE</div>
-      <div className={styles.auto}>AUTO</div>
-      {/* เพิ่ม onClick ให้กับรูปนี้เพื่อกลับไปที่หน้า START */}
+      <div 
+        className={styles.pvp} 
+        onClick={goToConfig}  // นำทางไปหน้า Config เมื่อคลิก
+      >
+        PVP
+      </div>
+      <div 
+        className={styles.pve} 
+        onClick={goToConfig}  // นำทางไปหน้า Config เมื่อคลิก
+      >
+        PVE
+      </div>
+      <div 
+        className={styles.auto} 
+        onClick={goToConfig}  // นำทางไปหน้า Config เมื่อคลิก
+      >
+        AUTO
+      </div>
       <img
         className={styles.vectorIcon}
         alt="Back"
         src="public/Vector Back.png"
-        onClick={goBackToStart} // เมื่อคลิก จะกลับไปหน้า START
+        onClick={() => navigate("/")}  // กลับไปหน้า START
       />
       <img
         className={styles.previewRev12Icon}

@@ -6,7 +6,7 @@ import React from "react";
 const Config: FunctionComponent = () => {
   const navigate = useNavigate(); // สร้างฟังก์ชัน navigate
   const goBackToStart = () => {
-    navigate("/"); // นำทางไปที่หน้า START
+    navigate("/MODE"); // นำทางไปที่หน้า START
   };
   // กำหนดค่าเริ่มต้นของ state จากค่าใน localStorage หรือค่าเริ่มต้น
   const [inputs, setInputs] = useState({

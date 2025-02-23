@@ -8,12 +8,12 @@ const START: FunctionComponent = () => {
 
   // ฟังก์ชันนำทางไปหน้า Config
   const onPlayClick = useCallback(() => {
-    navigate("/Config");
+    navigate("/MODE");
   }, [navigate]);
 
   // ฟังก์ชันนำทางไปหน้า MODE
   const onModeClick = useCallback(() => {
-    navigate("/MODE");
+    navigate("/Config");
   }, [navigate]);
 
   // ฟังก์ชันนำทางไปหน้า THANK
@@ -44,7 +44,7 @@ const START: FunctionComponent = () => {
         </div>
         <div className={styles.confixParent}>
           <div className={styles.confix} onClick={onModeClick}>
-            MODE
+          
           </div>
           <div className={styles.menuOptions}>
             <div className={styles.playExit} onClick={onPlayClick}>
