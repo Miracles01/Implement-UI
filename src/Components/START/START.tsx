@@ -44,7 +44,7 @@ const START: FunctionComponent = () => {
         </div>
         <div className={styles.confixParent}>
           <div className={styles.confix} onClick={onModeClick}>
-          
+          <div className={styles.play}>HOW</div>
           </div>
           <div className={styles.menuOptions}>
             <div className={styles.playExit} onClick={onPlayClick}>
