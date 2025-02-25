@@ -66,7 +66,437 @@ body {
     --padding-257xl: 276px;
     --padding-118xl: 137px;
     --padding-119xl: 138px;
-    --padding-91xl: 110px;
+    --padding-91xl: 110px;@import url("https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Coming+Soon:wght@400&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+    body {
+        margin: 0;
+        line-height: normal;
+    }
+    :root {
+        /* fonts */
+        --font-itim: Itim;
+        --font-coming-soon: "Coming Soon";
+        --font-inter: Inter;
+
+        /* font sizes */
+        --font-size-17xl: 36px;
+        --font-size-3xl: 22px;
+        --font-size-10xl: 29px;
+        --font-size-77xl: 96px;
+        --font-size-61xl: 80px;
+        --font-size-5xl: 24px;
+
+        /* Colors */
+        --color-white: #fff;
+        --color-olivedrab-100: #4f8901;
+        --color-olivedrab-200: #487400;
+        --color-black: #000;
+        --color-gray: #1e1e1e;
+        --color-yellowgreen-100: rgba(183, 199, 58, 0.9);
+        --color-yellowgreen-200: rgba(200, 228, 64, 0.8);
+        --color-gainsboro: #d9d9d9;
+        --color-seagreen: #22823c;
+        --color-lightcoral: #e77c76;
+
+        /* Gaps */
+        --gap-xl: 20px;
+        --gap-13xl: 32px;
+        --gap-base: 16px;
+        --gap-5xl: 24px;
+
+        /* Paddings */
+        --padding-37xl: 56px;
+        --padding-lg-5: 18.5px;
+        --padding-2xl: 21px;
+        --padding-mini: 15px;
+        --padding-5xl: 24px;
+        --padding-xl: 20px;
+        --padding-9xl: 28px;
+        --padding-4xl: 23px;
+        --padding-3xs: 10px;
+        --padding-16xl: 35px;
+        --padding-8xs: 5px;
+        --padding-3xl: 22px;
+        --padding-251xl: 270px;
+        --padding-116xl: 135px;
+        --padding-xs: 12px;
+        --padding-14xl: 33px;
+        --padding-11xs: 2px;
+        --padding-244xl: 263px;
+        --padding-112xl: 131px;
+        --padding-58xl: 77px;
+        --padding-59xl: 78px;
+        --padding-122xl: 141px;
+        --padding-533xl: 552px;
+        --padding-532xl: 551px;
+        --padding-256xl: 275px;
+        --padding-257xl: 276px;
+        --padding-118xl: 137px;
+        --padding-119xl: 138px;
+        --padding-91xl: 110px;
+        --padding-8xl: 27px;
+        --padding-7xl: 26px;
+        --padding-229xl: 248px;
+        --padding-105xl: 124px;
+
+        /* Border radiuses */
+        --br-81xl: 100px;
+        --br-xl: 20px;
+        --br-11xl: 30px;
+        --br-8xs: 5px;
+    }
+
+    .GameplayBG {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1; /* ส่งภาพไปข้างหลัง */
+    }
+
+
+
+    .Test {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+
+    }
+
+    .game {
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+        height: 1024px;
+        overflow: hidden;
+        text-align: center;
+        font-size: 36px;
+        color: #1e1e1e;
+        font-family: Itim;
+    }
+
+    .gameChild {
+        position: absolute;
+        top: 17.76px;
+        left: 34.99px;
+        border-radius: 20px;
+        background-color: rgba(200, 228, 64, 0.8);
+        width: 692.5px;
+        height: 979.8px;
+    }
+
+    h1 {
+        position: relative;
+        z-index: 10; /* ค่ามากกว่าภาพ */
+        color: white; /* ปรับสีให้เห็นชัด */
+    }
+    /*--1--*/
+    .hex1 {
+        position: absolute;
+        height: 10.9%;
+        width: 28%;
+        top: 9%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+    .hex2 {
+
+        position: absolute;
+        height: 10.9%;
+        width: 39%;
+        top: 4%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .hex3 {
+        position: absolute;
+        height: 10.9%;
+        width: 50%;
+        top: 9%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+
+    .hex4 {
+
+        position: absolute;
+        height: 10.9%;
+        width: 61%;
+        top: 4%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .hex5 {
+        position: absolute;
+        height: 10.9%;
+        width: 72%;
+        top: 9%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .hex6 {
+
+        position: absolute;
+        height: 10.9%;
+        width: 83%;
+        top: 4%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+    .hex7 {
+        position: absolute;
+        height: 10.9%;
+        width: 94%;
+        top: 9%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .hex8 {
+
+        position: absolute;
+        height: 10.9%;
+        width: 105%;
+        top: 4%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+
+    /*--2--*/
+    .hex9 {
+        position: absolute;
+        height: 10.9%;
+        width: 28%;
+        top: 20%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+    .hex10 {
+
+        position: absolute;
+        height: 10.9%;
+        width: 39%;
+        top: 15%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .hex11 {
+        position: absolute;
+        height: 10.9%;
+        width: 50%;
+        top: 20%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+
+    .hex12 {
+
+        position: absolute;
+        height: 10.9%;
+        width: 61%;
+        top: 15%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .hex13 {
+        position: absolute;
+        height: 10.9%;
+        width: 72%;
+        top: 20%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .hex14 {
+
+        position: absolute;
+        height: 10.9%;
+        width: 83%;
+        top: 15%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+    .hex15 {
+        position: absolute;
+        height: 10.9%;
+        width: 94%;
+        top: 20%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+
+    .hex16 {
+
+        position: absolute;
+        height: 10.9%;
+        width: 105%;
+        top: 15%;
+        right: 70.68%;
+        bottom: 7.91%;
+        left: 14.15%;
+
+        overflow: hidden;
+        max-height: 100%;
+        object-fit: contain;
+        z-index: 1;
+    }
+    /*--3--*/
+    .hex17 { position: absolute; height: 10.9%; width: 28%; top: 31%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex18 { position: absolute; height: 10.9%; width: 39%; top: 26%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex19 { position: absolute; height: 10.9%; width: 50%; top: 31%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex20 { position: absolute; height: 10.9%; width: 61%; top: 26%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex21 { position: absolute; height: 10.9%; width: 72%; top: 31%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex22 { position: absolute; height: 10.9%; width: 83%; top: 26%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex23 { position: absolute; height: 10.9%; width: 94%; top: 31%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex24 { position: absolute; height: 10.9%; width: 105%; top: 26%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    /*--4--*/
+    .hex25 { position: absolute; height: 10.9%; width: 28%; top: 42%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex26 { position: absolute; height: 10.9%; width: 39%; top: 37%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex27 { position: absolute; height: 10.9%; width: 50%; top: 42%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex28 { position: absolute; height: 10.9%; width: 61%; top: 37%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex29 { position: absolute; height: 10.9%; width: 72%; top: 42%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex30 { position: absolute; height: 10.9%; width: 83%; top: 37%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex31 { position: absolute; height: 10.9%; width: 94%; top: 42%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex32 { position: absolute; height: 10.9%; width: 105%; top: 37%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    /*--5--*/
+    .hex33 { position: absolute; height: 10.9%; width: 28%; top: 53%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex34 { position: absolute; height: 10.9%; width: 39%; top: 48%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex35 { position: absolute; height: 10.9%; width: 50%; top: 53%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex36 { position: absolute; height: 10.9%; width: 61%; top: 48%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex37 { position: absolute; height: 10.9%; width: 72%; top: 53%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex38 { position: absolute; height: 10.9%; width: 83%; top: 48%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex39 { position: absolute; height: 10.9%; width: 94%; top: 53%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex40 { position: absolute; height: 10.9%; width: 105%; top: 48%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    /*--6--*/
+    .hex41 { position: absolute; height: 10.9%; width: 28%; top: 64%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex42 { position: absolute; height: 10.9%; width: 39%; top: 59%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex43 { position: absolute; height: 10.9%; width: 50%; top: 64%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex44 { position: absolute; height: 10.9%; width: 61%; top: 59%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex45 { position: absolute; height: 10.9%; width: 72%; top: 64%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex46 { position: absolute; height: 10.9%; width: 83%; top: 59%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex47 { position: absolute; height: 10.9%; width: 94%; top: 64%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex48 { position: absolute; height: 10.9%; width: 105%; top: 59%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    /*--7--*/
+    .hex49 { position: absolute; height: 10.9%; width: 28%; top: 75%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex50 { position: absolute; height: 10.9%; width: 39%; top: 70%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex51 { position: absolute; height: 10.9%; width: 50%; top: 75%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex52 { position: absolute; height: 10.9%; width: 61%; top: 70%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex53 { position: absolute; height: 10.9%; width: 72%; top: 75%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex54 { position: absolute; height: 10.9%; width: 83%; top: 70%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex55 { position: absolute; height: 10.9%; width: 94%; top: 75%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex56 { position: absolute; height: 10.9%; width: 105%; top: 70%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    /*--8--*/
+    .hex57 { position: absolute; height: 10.9%; width: 28%; top: 86%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex58 { position: absolute; height: 10.9%; width: 39%; top: 81%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex59 { position: absolute; height: 10.9%; width: 50%; top: 86%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex60 { position: absolute; height: 10.9%; width: 61%; top: 81%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex61 { position: absolute; height: 10.9%; width: 72%; top: 86%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex62 { position: absolute; height: 10.9%; width: 83%; top: 81%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex63 { position: absolute; height: 10.9%; width: 94%; top: 86%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+    .hex64 { position: absolute; height: 10.9%; width: 105%; top: 81%; right: 70.68%; bottom: 7.91%; left: 14.15%; overflow: hidden; max-height: 100%; object-fit: contain; z-index: 1; }
+
     --padding-8xl: 27px;
     --padding-7xl: 26px;
     --padding-229xl: 248px;
