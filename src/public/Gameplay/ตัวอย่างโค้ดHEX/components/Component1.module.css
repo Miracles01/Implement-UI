@@ -1,0 +1,552 @@
+.componentIcon,
+.componentIcon1,
+.componentIcon2,
+.componentIcon3,
+.componentIcon4,
+.componentIcon5 {
+  position: absolute;
+  height: 10.9%;
+  width: 15.17%;
+  top: 81.19%;
+  right: 70.68%;
+  bottom: 7.91%;
+  left: 14.15%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+.componentIcon1,
+.componentIcon2,
+.componentIcon3,
+.componentIcon4,
+.componentIcon5 {
+  right: 47.44%;
+  left: 37.39%;
+  z-index: 1;
+}
+.componentIcon2,
+.componentIcon3,
+.componentIcon4,
+.componentIcon5 {
+  height: 15.9%;
+  width: 18.74%;
+  top: 72.76%;
+  right: 34.05%;
+  bottom: 11.34%;
+  left: 47.22%;
+  z-index: 6;
+}
+.componentIcon3,
+.componentIcon4,
+.componentIcon5 {
+  top: 78.83%;
+  right: 22.06%;
+  bottom: 5.27%;
+  left: 59.2%;
+  z-index: 7;
+}
+.componentIcon4,
+.componentIcon5 {
+  top: 67.49%;
+  bottom: 16.61%;
+  z-index: 8;
+}
+.componentIcon5 {
+  top: 84.12%;
+  right: 34.05%;
+  bottom: -0.01%;
+  left: 47.22%;
+  cursor: pointer;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: relative;
+  object-fit: contain;
+}
+.vectorIcon {
+  height: 83.4px;
+  width: 96.8px;
+  z-index: 1;
+}
+.vectorIcon1 {
+  width: 96.2px;
+  flex: 1;
+  max-height: 100%;
+  z-index: 3;
+}
+.vectorWrapper {
+  width: 245.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 9;
+}
+.vectorContainer {
+  height: 86.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.5px;
+  box-sizing: border-box;
+}
+.vectorParent {
+  position: absolute;
+  top: 588.4px;
+  left: 13.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-33xl-1);
+}
+.componentIcon6 {
+  position: absolute;
+  height: 10.9%;
+  width: 15.17%;
+  top: 81.19%;
+  right: 0.24%;
+  bottom: 7.91%;
+  left: 84.59%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 10;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  position: absolute;
+  top: 44.3px;
+  left: 0;
+  width: 120.3px;
+  height: 125.8px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6 {
+  top: 238.4px;
+  left: 13.7px;
+  width: 96.8px;
+  height: 83.4px;
+}
+.vectorIcon5,
+.vectorIcon6 {
+  top: 325.5px;
+  left: 15.2px;
+}
+.vectorIcon6 {
+  top: 151.3px;
+  left: 12.2px;
+  width: 97.9px;
+  height: 85.7px;
+  z-index: 2;
+}
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  position: absolute;
+  top: 88.6px;
+  left: 76px;
+  width: 120.2px;
+  height: 125.7px;
+  object-fit: contain;
+  z-index: 3;
+}
+.vectorIcon8,
+.vectorIcon9 {
+  top: 0.6px;
+  left: 75.5px;
+  width: 120px;
+  height: 125.6px;
+  z-index: 4;
+}
+.vectorIcon9 {
+  top: 0;
+  left: 226.4px;
+  width: 119.3px;
+  height: 125.2px;
+  z-index: 1;
+}
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13 {
+  position: absolute;
+  top: 44.3px;
+  left: 299.4px;
+  width: 118.8px;
+  height: 124.2px;
+  object-fit: contain;
+  z-index: 2;
+}
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13 {
+  top: 131.4px;
+  z-index: 1;
+}
+.vectorIcon12,
+.vectorIcon13 {
+  top: 217px;
+}
+.vectorIcon13 {
+  top: 41.5px;
+  left: 150.9px;
+  width: 118.5px;
+  height: 124.8px;
+  z-index: 5;
+}
+.vectorIcon14,
+.vectorIcon15,
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18 {
+  position: absolute;
+  top: 414.2px;
+  left: 15.2px;
+  width: 96.8px;
+  height: 83.4px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorIcon15,
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18 {
+  top: 502.8px;
+  left: 13.7px;
+}
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18 {
+  top: 545.6px;
+  left: 237.1px;
+  width: 96.2px;
+  height: 85.2px;
+}
+.vectorIcon17,
+.vectorIcon18 {
+  top: 457px;
+}
+.vectorIcon18 {
+  top: 279.7px;
+  z-index: 2;
+}
+.vectorIcon19,
+.vectorIcon20,
+.vectorIcon21,
+.vectorIcon22,
+.vectorIcon23 {
+  position: absolute;
+  top: 61.1px;
+  left: 460.5px;
+  width: 96.2px;
+  height: 85.2px;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorIcon20,
+.vectorIcon21,
+.vectorIcon22,
+.vectorIcon23 {
+  top: 149.8px;
+}
+.vectorIcon21,
+.vectorIcon22,
+.vectorIcon23 {
+  top: 236.3px;
+  width: 96.1px;
+  height: 86.4px;
+}
+.vectorIcon22,
+.vectorIcon23 {
+  top: 324px;
+  width: 96.2px;
+  height: 85.2px;
+}
+.vectorIcon23 {
+  top: 368.3px;
+  left: 237.1px;
+}
+.vectorIcon24,
+.vectorIcon25,
+.vectorIcon26,
+.vectorIcon27,
+.vectorIcon28,
+.vectorIcon29 {
+  position: absolute;
+  top: 502.8px;
+  left: 162.6px;
+  width: 96.2px;
+  height: 85.2px;
+  object-fit: contain;
+  z-index: 2;
+}
+.vectorIcon25,
+.vectorIcon26,
+.vectorIcon27,
+.vectorIcon28,
+.vectorIcon29 {
+  top: 414.2px;
+}
+.vectorIcon26,
+.vectorIcon27,
+.vectorIcon28,
+.vectorIcon29 {
+  top: 325.5px;
+  z-index: 3;
+}
+.vectorIcon27,
+.vectorIcon28,
+.vectorIcon29 {
+  top: 236.9px;
+}
+.vectorIcon28,
+.vectorIcon29 {
+  top: 149.4px;
+  left: 162.9px;
+  z-index: 6;
+}
+.vectorIcon29 {
+  top: 458.5px;
+  left: 89.7px;
+  z-index: 3;
+}
+.vectorIcon30,
+.vectorIcon31,
+.vectorIcon32,
+.vectorIcon33,
+.vectorIcon34,
+.vectorIcon35 {
+  position: absolute;
+  top: 545.6px;
+  left: 89.7px;
+  width: 96.2px;
+  height: 85.2px;
+  object-fit: contain;
+  z-index: 4;
+}
+.vectorIcon31,
+.vectorIcon32,
+.vectorIcon33,
+.vectorIcon34,
+.vectorIcon35 {
+  top: 368.3px;
+}
+.vectorIcon32,
+.vectorIcon33,
+.vectorIcon34,
+.vectorIcon35 {
+  top: 281.2px;
+}
+.vectorIcon33,
+.vectorIcon34,
+.vectorIcon35 {
+  top: 195.6px;
+  left: 88.1px;
+  z-index: 7;
+}
+.vectorIcon34,
+.vectorIcon35 {
+  top: 192.6px;
+  left: 235.5px;
+}
+.vectorIcon35 {
+  top: 105.5px;
+  left: 237.1px;
+}
+.vectorIcon36,
+.vectorIcon37,
+.vectorIcon38 {
+  position: absolute;
+  top: 304.1px;
+  left: 299.4px;
+  width: 118.8px;
+  height: 124.2px;
+  object-fit: contain;
+  z-index: 3;
+}
+.vectorIcon37,
+.vectorIcon38 {
+  top: 394.3px;
+  z-index: 4;
+}
+.vectorIcon38 {
+  top: 481.4px;
+  z-index: 5;
+}
+.vectorIcon39,
+.vectorIcon40,
+.vectorIcon41,
+.vectorIcon42,
+.vectorIcon43,
+.vectorIcon44 {
+  position: absolute;
+  top: 437.1px;
+  left: 375.4px;
+  width: 118.8px;
+  height: 124.2px;
+  object-fit: contain;
+  z-index: 9;
+}
+.vectorIcon40,
+.vectorIcon41,
+.vectorIcon42,
+.vectorIcon43,
+.vectorIcon44 {
+  top: 351.5px;
+  z-index: 10;
+}
+.vectorIcon41,
+.vectorIcon42,
+.vectorIcon43,
+.vectorIcon44 {
+  top: 261.3px;
+  z-index: 11;
+}
+.vectorIcon42,
+.vectorIcon43,
+.vectorIcon44 {
+  top: 174.2px;
+  z-index: 12;
+}
+.vectorIcon43,
+.vectorIcon44 {
+  top: 87.9px;
+  left: 374.8px;
+  z-index: 13;
+}
+.vectorIcon44 {
+  top: 0;
+  left: 375.4px;
+  z-index: 14;
+}
+.vectorIcon45,
+.vectorIcon46,
+.vectorIcon47 {
+  position: absolute;
+  top: 412.7px;
+  left: 460.5px;
+  width: 96.2px;
+  height: 85.2px;
+  object-fit: contain;
+  z-index: 11;
+}
+.vectorIcon46,
+.vectorIcon47 {
+  top: 501.3px;
+  z-index: 10;
+}
+.vectorIcon47 {
+  top: 369.9px;
+  left: 534.9px;
+  z-index: 12;
+}
+.vectorIcon48,
+.vectorIcon49,
+.vectorIcon50,
+.vectorIcon51,
+.vectorIcon52,
+.vectorIcon53 {
+  position: absolute;
+  top: 281.2px;
+  left: 538px;
+  width: 96.2px;
+  height: 85.2px;
+  object-fit: contain;
+  z-index: 2;
+}
+.vectorIcon49,
+.vectorIcon50,
+.vectorIcon51,
+.vectorIcon52,
+.vectorIcon53 {
+  top: 194.1px;
+  left: 536.4px;
+}
+.vectorIcon50,
+.vectorIcon51,
+.vectorIcon52,
+.vectorIcon53 {
+  top: 544.1px;
+  z-index: 11;
+}
+.vectorIcon51,
+.vectorIcon52,
+.vectorIcon53 {
+  top: 457px;
+  z-index: 12;
+}
+.vectorIcon52,
+.vectorIcon53 {
+  top: 105.5px;
+  z-index: 2;
+}
+.vectorIcon53 {
+  top: 18.3px;
+  left: 534.9px;
+}
+.vectorGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 634.1px;
+  height: 630.8px;
+}
+.vectorIcon54,
+.vectorIcon56 {
+  height: 83.4px;
+  width: 96.8px;
+  position: relative;
+  object-fit: contain;
+  z-index: 3;
+}
+.vectorIcon56 {
+  height: 85.2px;
+  width: 96.2px;
+  z-index: 11;
+}
+.frameSection {
+  position: absolute;
+  top: 678.6px;
+  left: 13.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-33xl-1);
+}
+.component1 {
+  width: 634.1px;
+  height: 781.3px;
+  max-width: 100%;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 516px) {
+  .frameSection,
+  .vectorParent {
+    flex-wrap: wrap;
+  }
+  .component1 {
+    height: auto;
+    min-height: 781.3000000000002;
+  }
+}
