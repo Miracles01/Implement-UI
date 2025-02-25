@@ -98,3 +98,21 @@
   color: var(--color-white);
   font-family: var(--font-itim);
 }
+.playButton {
+  position: fixed;
+  bottom: 20px; /* ระยะห่างจากด้านล่าง */
+  right: 20px; /* ระยะห่างจากด้านขวา */
+  background-color: #4f8901;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.playButton:hover {
+  background-color: #417b03;
+  transform: scale(1.1); /* ขยายขนาดเมื่อ hover */
+}

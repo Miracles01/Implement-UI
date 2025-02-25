@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
-import { START,Config,THANK,MODE ,MINION,Join} from "./Components";
+import { START, Config, THANK, MODE, MINION, Join, Gameplay } from "./Components"; // เพิ่ม Gameplay
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
         <Route path="/MODE" element={<MODE />} />
         <Route path="/Config" element={<Config />} />
         <Route path="/THANK" element={<THANK />} />
-        
+        <Route path="/Gameplay" element={<Gameplay />} /> 
       </Routes>
     </Router>
   );
